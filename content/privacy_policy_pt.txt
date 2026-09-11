@@ -1,0 +1,88 @@
+Política de Privacidade do Reel Nest
+
+Data de vigência: 11 de setembro de 2026
+
+Fellow Survivor Studio (nome em coreano: 펠로우서바이버스튜디오; “nós”) respeita a privacidade dos usuários do aplicativo móvel Reel Nest (o “Aplicativo”). Esta política explica como o Aplicativo acessa, coleta, usa, compartilha e retém dados do usuário e do dispositivo.
+
+1. Controlador e contato
+Empresa: Fellow Survivor Studio (펠로우서바이버스튜디오)
+Número de registro comercial: 773-26-02197
+Contato de privacidade: fellow.survivor.studio@gmail.com
+
+2. Dados tratados pelo Aplicativo
+
+A. Dados armazenados somente no dispositivo
+Para oferecer suas funções, o Aplicativo armazena os dados abaixo no dispositivo. Eles não são enviados a um servidor separado operado por nós.
+
+- Dados de navegação: URLs, títulos e horários de páginas visitadas (até 500 registros), URLs de abas abertas e da página inicial, títulos e URLs de favoritos, cookies, cache e armazenamento WebView e ícones de sites
+- Dados de download: arquivos baixados, nomes, URLs de origem, formatos e tipos, locais de armazenamento, horários de conclusão e imagens de prévia
+- Dados escolhidos pelo usuário: imagem selecionada como fundo inicial e arquivos de mídia importados ao armazenamento do Aplicativo
+- Configurações: tema, tamanho do texto, posição da barra, bloqueio de anúncios, retenção de histórico e sessão, local de armazenamento e outras preferências
+- Bloqueio de armazenamento: estado do bloqueio e hash unidirecional com salt aleatório do PIN. O PIN original não é armazenado. O Android processa a autenticação biométrica; o Aplicativo não acessa nem armazena impressão digital, rosto ou outros dados biométricos brutos.
+
+O histórico de navegação e o de downloads podem ser desativados separadamente. Ao desativar um deles, o histórico existente correspondente é excluído imediatamente.
+
+Se o backup do Android estiver ativado, o sistema operacional poderá incluir alguns dados internos do Aplicativo no backup da Conta Google do usuário. Esse tratamento depende das políticas do Google e das configurações do dispositivo.
+
+B. Dados transmitidos durante o uso de funções
+
+- Navegação e downloads: ao visitar um site ou detectar ou baixar um recurso, a URL solicitada, endereço IP, User-Agent, Referer, cookies e cabeçalhos necessários podem ser enviados ao operador do site, provedor de conteúdo ou CDN. Isso é necessário para exibir a página e baixar arquivos. O tráfego para endereços HTTP pode não ser criptografado; recomenda-se HTTPS.
+- Google Firebase Analytics: eventos de uso, identificador da instância, informações do dispositivo, sistema e Aplicativo, região aproximada e diagnósticos podem ser enviados ao Google para análise de uso e melhoria da qualidade.
+- Google Firebase Crashlytics: registros de falhas, rastreamentos de pilha, informações do Aplicativo, dispositivo e sistema e diagnósticos no momento da falha podem ser enviados ao Google para investigar erros e melhorar a estabilidade.
+- Google AdMob e User Messaging Platform: quando um usuário gratuito escolhe o anúncio premiado, identificadores de publicidade, endereço IP, informações do dispositivo e do Aplicativo, visualizações e interações, diagnósticos e estado do consentimento podem ser enviados ao Google e parceiros para fornecer anúncios, limitar frequência, prevenir fraude, medir desempenho e gerenciar consentimento legal. Onde exigido, uma tela de consentimento é mostrada antes da solicitação de anúncio. Quando disponível, as opções podem ser reabertas em “Assinatura e privacidade” nas Configurações.
+- Faturamento do Google Play: informações do produto, estado e token da compra e informações relacionadas ao pagamento são tratados com o Google Play para comprar, verificar e restaurar assinaturas. Não coletamos nem armazenamos os dados completos do cartão no Aplicativo.
+
+O Aplicativo não oferece cadastro nem contas próprias e não cria perfis de usuário em nossos servidores.
+
+3. Finalidades
+
+- Exibir páginas, detectar e baixar recursos e gerenciar arquivos
+- Restaurar abas e oferecer históricos, favoritos, personalização e bloqueio de armazenamento
+- Verificar assinaturas, processar compras e oferecer anúncios premiados
+- Analisar o uso, diagnosticar falhas, prevenir fraude e abuso e melhorar o serviço
+- Cumprir obrigações legais e responder a solicitações
+
+4. Compartilhamento e tratamento por terceiros
+Não vendemos dados pessoais. Somente quando necessário para uma função, os dados podem ser tratados por ou compartilhados com:
+
+- Operadores de sites, provedores de conteúdo e CDNs escolhidos pelo usuário
+- Google LLC e seus prestadores: Google Play, Firebase Analytics, Firebase Crashlytics, Google AdMob, User Messaging Platform e backup do Android
+- Autoridades ou partes relevantes quando exigido por lei, solicitação governamental válida, proteção de direitos ou transferência empresarial
+
+Mais informações sobre o tratamento do Google:
+https://policies.google.com/privacy
+https://firebase.google.com/support/privacy
+https://policies.google.com/technologies/ads
+
+Sites de terceiros visualizados no Aplicativo tratam dados conforme suas próprias políticas. Não controlamos esse tratamento independente.
+
+5. Retenção e exclusão
+
+- Dados no dispositivo são mantidos até que o usuário os exclua por uma função ou desinstale o Aplicativo. O histórico de navegação é limitado a 500 registros.
+- Cookies, cache e armazenamento web podem ser excluídos em Configurações > Privacidade > Limpar cookies e cache.
+- Os históricos podem ser excluídos parcial ou totalmente em suas telas. Desativar sua retenção os exclui imediatamente.
+- Favoritos, arquivos, fundo inicial e outras configurações podem ser excluídos ou alterados por suas funções de gerenciamento. A desinstalação exclui dados do armazenamento interno específico do Aplicativo. Arquivos salvos ou exportados ao armazenamento de mídia compartilhado e cópias em backups Android/Google podem exigir exclusão separada.
+- Dados tratados por terceiros como o Google são retidos e excluídos conforme suas políticas e configurações do usuário.
+
+Como o Aplicativo não cria contas próprias, não há conta do Aplicativo a excluir. Para solicitar acesso, correção ou exclusão de informações que possamos manter porque o usuário as forneceu diretamente, como um e-mail de contato, fale conosco. Informações sujeitas a obrigação legal podem ser mantidas pelo prazo exigido.
+
+6. Segurança
+O Aplicativo usa armazenamento específico e controles de acesso do Android. O PIN é armazenado como hash unidirecional com salt em armazenamento criptografado. Conexões compatíveis com serviços externos usam proteção moderna, como HTTPS. No entanto, uma conexão pode não ser criptografada se o usuário visitar um site HTTP ou baixar um recurso HTTP.
+
+7. Permissões
+
+- Internet: navegação, downloads, anúncios, análise, relatórios de falhas e faturamento.
+- Notificações (Android 13 ou posterior): andamento e resultado de downloads.
+- Serviço em primeiro plano: continuar um download iniciado pelo usuário enquanto o Aplicativo está em segundo plano.
+- Gravação em armazenamento externo (Android 9 ou anterior): salvar arquivos em local compartilhado escolhido pelo usuário.
+
+O seletor de fotos do sistema é usado para acessar apenas imagens ou mídias escolhidas expressamente pelo usuário.
+
+8. Privacidade de crianças
+O Aplicativo não foi projetado para crianças. Não coletamos intencionalmente seus dados pessoais de forma direta. Pais ou responsáveis podem nos contatar se informações fornecidas por uma criança precisarem ser excluídas.
+
+9. Alterações
+Podemos atualizar esta política se as funções, serviços de terceiros ou leis aplicáveis mudarem. Avisaremos sobre alterações importantes por meios adequados, inclusive aviso no Aplicativo, e atualizaremos a data de vigência.
+
+10. Contato
+Perguntas sobre esta política ou o tratamento de dados podem ser enviadas a fellow.survivor.studio@gmail.com.
