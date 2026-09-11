@@ -175,6 +175,17 @@ def main() -> None:
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{url}</loc></url>\n" for url in urls) + "</urlset>\n"
     (DIST / "sitemap.xml").write_text(sitemap, encoding="utf-8")
 
+    # GitHub Pages is configured to publish from main/(root). Keep the generated
+    # root files in sync while retaining dist/ as a self-contained build artifact.
+    for name in ("index.html", ".nojekyll", "robots.txt", "sitemap.xml"):
+        shutil.copy2(DIST / name, ROOT / name)
+    for lang in LANGUAGES:
+        if lang == "ko":
+            continue
+        locale_dir = ROOT / lang
+        locale_dir.mkdir(exist_ok=True)
+        shutil.copy2(DIST / lang / "index.html", locale_dir / "index.html")
+
 
 if __name__ == "__main__":
     main()

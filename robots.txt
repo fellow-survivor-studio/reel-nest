@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fellow-survivor-studio.github.io/reel-nest/sitemap.xml
