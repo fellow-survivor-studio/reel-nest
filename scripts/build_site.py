@@ -55,6 +55,19 @@ LABELS = {
     "pt": {"privacy": "Privacidade", "terms": "Termos", "privacy_link": "Política de Privacidade", "language": "Idioma", "toc": "Conteúdo", "top": "Voltar ao topo", "updated": "Data de vigência", "skip": "Ir para o conteúdo"},
 }
 TERMS_LINK = {"ko": "이용약관", "en": "Terms of Use", "ja": "利用規約", "zh": "使用条款", "es": "Términos de uso", "pt": "Termos de Uso"}
+# Previous versions stay published (the privacy policy promises that the pre-change
+# text can be viewed on the same site). Put a replaced text in content/archive/ as
+# <source>_<lang>_<YYYY-MM-DD of its effective date>.txt before overwriting content/.
+ARCHIVE_LABELS = {
+    "ko": {"previous": "이전 버전", "notice": "이 문서는 이전 버전입니다.", "current": "현재 버전 보기"},
+    "en": {"previous": "Previous versions", "notice": "This is a previous version of this document.", "current": "View the current version"},
+    "ja": {"previous": "以前の版", "notice": "この文書は以前の版です。", "current": "現行版を見る"},
+    "zh": {"previous": "历史版本", "notice": "本文件为历史版本。", "current": "查看当前版本"},
+    "es": {"previous": "Versiones anteriores", "notice": "Esta es una versión anterior de este documento.", "current": "Ver la versión vigente"},
+    "pt": {"previous": "Versões anteriores", "notice": "Esta é uma versão anterior deste documento.", "current": "Ver a versão vigente"},
+}
+ARCHIVE = CONTENT / "archive"
+ARCHIVE_NAME_RE = re.compile(r"^(?P<source>[a-z_]+)_(?P<lang>[a-z]{2})_(?P<date>\d{4}-\d{2}-\d{2})\.txt$")
 
 BASE_URL = "https://fellow-survivor-studio.github.io/reel-nest/"
 URL_RE = re.compile(r"^https://[^\s]+$")
@@ -70,10 +83,24 @@ TERMS_SECTION_RE = re.compile(
 BULLETS = ("- ", "・")
 
 
-def output_path(doc: str, lang: str) -> str:
-    """Path of a page relative to the site root, e.g. '', 'en/', 'terms/', 'terms/ja/'."""
+def output_path(doc: str, lang: str, archived: str | None = None) -> str:
+    """Path of a page relative to the site root, e.g. '', 'en/', 'terms/', 'terms/ja/',
+    'archive/2026-09-11/en/' for a previous version."""
     prefix = DOCUMENTS[doc]["prefix"]
+    if archived:
+        prefix = f"{prefix}archive/{archived}/"
     return prefix if lang == "ko" else f"{prefix}{lang}/"
+
+
+def archived_versions(doc: str) -> dict[str, dict[str, Path]]:
+    """{date: {lang: path}} of the previous versions of a document, newest first."""
+    versions: dict[str, dict[str, Path]] = {}
+    if ARCHIVE.exists():
+        for path in ARCHIVE.iterdir():
+            match = ARCHIVE_NAME_RE.match(path.name)
+            if match and match["source"] == DOCUMENTS[doc]["source"] and match["lang"] in LANGUAGES:
+                versions.setdefault(match["date"], {})[match["lang"]] = path
+    return dict(sorted(versions.items(), reverse=True))
 
 
 def relative_href(from_path: str, to_path: str) -> str:
@@ -131,25 +158,52 @@ def render_document(doc: str, text: str) -> tuple[str, str, list[tuple[str, str]
     return title, effective, toc, body
 
 
-def render_page(doc: str, lang: str, text: str) -> str:
+def render_page(
+    doc: str,
+    lang: str,
+    text: str,
+    archived: str | None = None,
+    versions: dict[str, dict[str, Path]] | None = None,
+) -> str:
+    """Render a current page (archived=None, listing `versions` as previous versions) or
+    the previous version effective from `archived` (versions = the languages it exists in)."""
     meta = LANGUAGES[lang]
     labels = LABELS[lang]
-    here = output_path(doc, lang)
+    archive_labels = ARCHIVE_LABELS[lang]
+    versions = versions or {}
+    here = output_path(doc, lang, archived)
     title, effective, toc, body = render_document(doc, text)
     css_href = relative_href(here, "styles.css")
     canonical = BASE_URL + here
+    page_languages = [code for code in LANGUAGES if not archived or code in versions.get(archived, {})]
     language_items = []
-    for code, item in LANGUAGES.items():
+    for code in page_languages:
+        item = LANGUAGES[code]
         current = ' aria-current="page"' if code == lang else ""
         language_items.append(
-            f'<a href="{relative_href(here, output_path(doc, code))}" lang="{item["html_lang"]}"{current}>'
+            f'<a href="{relative_href(here, output_path(doc, code, archived))}" lang="{item["html_lang"]}"{current}>'
             f'{html.escape(item["name"])}</a>'
         )
     language_links = "".join(language_items)
     alternate_links = "\n".join(
-        f'<link rel="alternate" hreflang="{item["html_lang"]}" href="{BASE_URL + output_path(doc, code)}">'
-        for code, item in LANGUAGES.items()
+        f'<link rel="alternate" hreflang="{LANGUAGES[code]["html_lang"]}" href="{BASE_URL + output_path(doc, code, archived)}">'
+        for code in page_languages
     )
+    robots = "noindex, follow" if archived else "index, follow"
+    archive_notice = ""
+    previous_versions = ""
+    if archived:
+        archive_notice = (
+            f'<p class="archive-notice">{html.escape(archive_labels["notice"])} '
+            f'<a href="{relative_href(here, output_path(doc, lang))}">{html.escape(archive_labels["current"])}</a></p>'
+        )
+    else:
+        items = "".join(
+            f'<li><a href="{relative_href(here, output_path(doc, lang if lang in langs else "ko", date))}">{date}</a></li>'
+            for date, langs in versions.items()
+        )
+        if items:
+            previous_versions = f'<nav class="previous-versions" aria-label="{html.escape(archive_labels["previous"], quote=True)}"><h2>{html.escape(archive_labels["previous"])}</h2><ul>{items}</ul></nav>'
     toc_links = "".join(f'<li><a href="#{anchor}">{html.escape(label)}</a></li>' for anchor, label in toc)
     effective_value = re.sub(r"^[^:：]+[:：]\s*", "", effective)
     privacy_href = relative_href(here, output_path("privacy", lang))
@@ -161,7 +215,7 @@ def render_page(doc: str, lang: str, text: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{html.escape(DESCRIPTIONS[doc][lang], quote=True)}">
   <meta name="theme-color" content="#13263f">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="{robots}">
   <title>{html.escape(title)}</title>
   <link rel="canonical" href="{canonical}">
   {alternate_links}
@@ -188,7 +242,8 @@ def render_page(doc: str, lang: str, text: str) -> str:
         <h1>{html.escape(title)}</h1>
         <p class="effective"><span>{html.escape(labels["updated"])}</span>{html.escape(effective_value)}</p>
       </div>
-      <div class="document-body">{''.join(body)}</div>
+      {archive_notice}
+      <div class="document-body">{''.join(body)}{previous_versions}</div>
       <a class="back-to-top" href="#">↑ {html.escape(labels["top"])}</a>
     </article>
   </main>
@@ -204,16 +259,29 @@ def main() -> None:
     DIST.mkdir()
     shutil.copy2(ROOT / "styles.css", DIST / "styles.css")
     pages: list[str] = []
+    archive_pages: list[str] = []
+
+    def write_page(path: str, content: str) -> None:
+        output_dir = DIST / path
+        output_dir.mkdir(parents=True, exist_ok=True)
+        (output_dir / "index.html").write_text(content, encoding="utf-8")
+
     for doc, info in DOCUMENTS.items():
+        versions = archived_versions(doc)
         for lang in LANGUAGES:
             source = CONTENT / f"{info['source']}_{lang}.txt"
             if not source.exists():
                 raise FileNotFoundError(source)
             path = output_path(doc, lang)
-            output_dir = DIST / path
-            output_dir.mkdir(parents=True, exist_ok=True)
-            (output_dir / "index.html").write_text(render_page(doc, lang, source.read_text(encoding="utf-8")), encoding="utf-8")
+            write_page(path, render_page(doc, lang, source.read_text(encoding="utf-8"), versions=versions))
             pages.append(path)
+        for date, langs in versions.items():
+            if "ko" not in langs:
+                raise FileNotFoundError(ARCHIVE / f"{info['source']}_ko_{date}.txt")
+            for lang, source in langs.items():
+                path = output_path(doc, lang, date)
+                write_page(path, render_page(doc, lang, source.read_text(encoding="utf-8"), archived=date, versions=versions))
+                archive_pages.append(path)
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{BASE_URL}{path}</loc></url>\n" for path in pages) + "</urlset>\n"
@@ -223,7 +291,7 @@ def main() -> None:
     # root files in sync while retaining dist/ as a self-contained build artifact.
     for name in (".nojekyll", "robots.txt", "sitemap.xml"):
         shutil.copy2(DIST / name, ROOT / name)
-    for path in pages:
+    for path in pages + archive_pages:
         target_dir = ROOT / path
         target_dir.mkdir(parents=True, exist_ok=True)
         shutil.copy2(DIST / path / "index.html", target_dir / "index.html")

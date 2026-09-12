@@ -21,7 +21,15 @@ Korean is the default at each path; `en`, `ja`, `zh`, `es` and `pt` are the othe
 
 The texts must match the ones shipped in the app
 (`app/src/main/assets/legal/privacy_policy_*.txt` and `terms_of_use_*.txt`).
-Copy them into `content/`, then run:
+
+The privacy policy promises that the previous version stays viewable on this
+site, so before overwriting a text, move the current one to
+`content/archive/<privacy_policy|terms_of_use>_<lang>_<YYYY-MM-DD>.txt`, where the
+date is its effective date. Previous versions are published under `archive/<date>/`
+(and `terms/archive/<date>/`), linked from the current page and excluded from the
+sitemap. A Korean file is required for each archived date.
+
+Then copy the new texts into `content/` and run:
 
 ```sh
 python scripts/build_site.py
