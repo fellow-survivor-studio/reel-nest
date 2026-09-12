@@ -1,6 +1,6 @@
-# Reel Nest Privacy Policy
+# Reel Nest Legal Documents
 
-Public privacy-policy site for the Reel Nest Android app.
+Public site for the Reel Nest Android app's privacy policy and terms of use.
 
 ## GitHub Pages
 
@@ -9,16 +9,24 @@ Public privacy-policy site for the Reel Nest Android app.
 3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
 4. Select the `main` branch and `/(root)` folder.
 
-GitHub Pages publishes the generated files in the repository root. The public URL is:
+GitHub Pages publishes the generated files in the repository root, so a push to
+`main` publishes immediately. The public URLs are:
 
-https://fellow-survivor-studio.github.io/reel-nest/
+- Privacy policy: https://fellow-survivor-studio.github.io/reel-nest/ (other languages at `/{lang}/`)
+- Terms of use: https://fellow-survivor-studio.github.io/reel-nest/terms/ (other languages at `/terms/{lang}/`)
 
-## Updating the policy
+Korean is the default at each path; `en`, `ja`, `zh`, `es` and `pt` are the other languages.
 
-Edit the localized files in `content/`, then run:
+## Updating the documents
+
+The texts must match the ones shipped in the app
+(`app/src/main/assets/legal/privacy_policy_*.txt` and `terms_of_use_*.txt`).
+Copy them into `content/`, then run:
 
 ```sh
 python scripts/build_site.py
 ```
 
-Commit both the updated source files and generated root/`dist` files.
+Commit both the updated source files and generated root/`dist` files. Publish
+on the same day as the app release that ships the same texts, and for a terms
+change follow the notice period in the terms (Article 3).
