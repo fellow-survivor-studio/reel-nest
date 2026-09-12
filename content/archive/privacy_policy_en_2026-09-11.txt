@@ -1,0 +1,89 @@
+Reel Nest Privacy Policy
+
+Effective date: September 11, 2026
+
+Fellow Survivor Studio ("we") values the privacy of users of the Reel Nest mobile application (the "App"). This policy explains how the App accesses, collects, uses, shares, and retains user and device data.
+
+1. Data controller and contact
+Business name: Fellow Survivor Studio (펠로우서바이버스튜디오)
+Business registration number: 773-26-02197
+Privacy contact: fellow.survivor.studio@gmail.com
+
+2. Data processed by the App
+
+A. Data stored only on the device
+The App stores the following data on the user's device to provide its features. It is not sent to a separate server operated by us.
+
+- Browsing data: visited page URLs, titles and visit times (up to 500 entries), open-tab URLs, home-page URL, favorite titles and URLs, WebView cookies, cache, web storage, and site icons
+- Download data: downloaded files, file names, source URLs, file formats and types, storage locations, completion times, and preview images
+- User-selected data: an image selected as the home background and media files imported into App storage
+- Settings: theme, text size, address-bar position, ad blocking, history and session retention, storage location, and other preferences
+- storage lock data: whether the lock is enabled and a one-way hash and random salt for the PIN. The plain PIN is not stored. Android processes biometric authentication; the App does not access or store raw fingerprint, facial, or other biometric data.
+
+Browsing-history and download-history storage can each be disabled in Settings. Disabling browsing history immediately deletes existing browsing history, and disabling download history immediately deletes existing download history.
+
+If Android backup is enabled on the device, some internal App data may be included in the user's Google Account backup through the operating system. This processing depends on Google policies and the user's device settings.
+
+B. Data transmitted while features are used
+
+- Web browsing and downloads: when a user visits a website or detects or downloads a resource, the request URL, IP address, User-Agent, Referer, cookies, and necessary request headers may be sent to the website operator, content provider, or CDN. This is necessary to display the requested page and download files. Traffic to an HTTP address may not be encrypted; HTTPS websites are recommended.
+- Google Firebase Analytics: App usage events, an app-instance identifier, device, operating-system and App information, approximate region, and diagnostic information may be sent to Google for usage analysis and quality improvement.
+- Google Firebase Crashlytics: crash logs, stack traces, App, device and operating-system information, and diagnostics at the time of a crash may be sent to Google to investigate errors and improve stability.
+- Google AdMob and User Messaging Platform: when a free user chooses the rewarded-ad feature, advertising identifiers, IP address, device and App information, ad views and interactions, diagnostics, and consent status may be sent to Google and advertising partners to deliver ads, limit frequency, prevent fraud, measure performance, and manage legally required consent. Where required, a consent screen is shown before an ad request. When available, users can reopen ad privacy choices from Subscription & privacy in Settings.
+- Google Play Billing: subscription product information, purchase status, purchase token, and payment-related information are processed with Google Play to purchase, verify, and restore subscriptions. We do not collect or store the user's complete payment-card details in the App.
+
+The App does not provide registration or its own user accounts, and we do not create user profiles on our servers.
+
+3. Purposes
+We process the data above only for the following purposes:
+
+- Displaying web pages, detecting and downloading media resources, and managing files
+- Restoring tabs and providing browsing and download history, favorites, customization, and the storage lock
+- Verifying subscription status, processing purchases, and providing rewarded ads
+- Analyzing App use, diagnosing crashes, preventing fraud and abuse, and improving the service
+- Meeting legal obligations and responding to user inquiries
+
+4. Sharing and third-party processing
+We do not sell personal data. Data may be processed by or shared with the following recipients only as necessary to provide features:
+
+- Website operators, content providers, and CDNs selected by the user
+- Google LLC and its service providers: Google Play, Firebase Analytics, Firebase Crashlytics, Google AdMob, User Messaging Platform, and Android backup
+- Authorities or relevant parties when required by law, a valid governmental request, protection of rights, or a business transfer
+
+More information about Google's data practices:
+https://policies.google.com/privacy
+https://firebase.google.com/support/privacy
+https://policies.google.com/technologies/ads
+
+Third-party websites viewed in the App process data under their own privacy policies. We do not control their independent data processing.
+
+5. Retention and deletion
+
+- On-device data is retained until the user deletes it through an App feature or uninstalls the App. Browsing history is limited to 500 entries.
+- Cookies, cache, and web storage can be deleted from Settings > Privacy > Clear cookies & cache.
+- Browsing and download history can be deleted individually or entirely from their respective screens. Turning off history storage in Settings immediately deletes that history.
+- Favorites, stored files, the home background, and other settings can be deleted or changed using their management features. Uninstalling the App deletes data in App-specific internal storage. Files saved or exported to shared media storage and copies in Android/Google backups may need to be deleted separately.
+- Data processed by third parties such as Google is retained and deleted according to their policies and user settings.
+
+Because the App does not create its own accounts, there is no App account to delete. To request access, correction, or deletion of information that we may hold because you provided it directly, such as an inquiry email, contact us above. Information subject to a legal retention duty may be retained for the required period.
+
+6. Security
+The App uses App-specific storage and Android access controls. A storage PIN is kept as a salted one-way hash in encrypted storage. Supported external-service connections use modern transport protection such as HTTPS. A connection may nevertheless be unencrypted if the user directly visits an HTTP website or downloads an HTTP resource.
+
+7. Permissions
+
+- Internet: used for web browsing, downloads, ads, analytics, crash reporting, and billing.
+- Notifications (Android 13 and later): used to report ongoing downloads and their results.
+- Foreground service: used to continue a user-initiated download while the App is in the background.
+- Write external storage (Android 9 and earlier): used to save a file to a shared location selected by the user.
+
+The system photo picker is used to access only images or media explicitly selected by the user.
+
+8. Children's privacy
+The App is not designed for children. We do not knowingly collect children's personal data directly. A parent or guardian may contact us if information provided by a child should be deleted.
+
+9. Changes to this policy
+We may update this policy if App features, third-party services, or applicable laws change. We will give appropriate notice of material changes, including in-App notice, and update the effective date above.
+
+10. Contact
+Questions about this policy or data processing may be sent to fellow.survivor.studio@gmail.com.

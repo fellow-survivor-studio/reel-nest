@@ -1,0 +1,110 @@
+Reel Nest Terms of Use
+
+Effective date: September 13, 2026
+
+※ Provisions marked 【Important】 significantly affect your rights and obligations. Please be sure to read them.
+
+Article 1 (Purpose)
+These Terms govern the rights, obligations, and responsibilities between Fellow Survivor Studio (the "Company") and users in connection with the use of the mobile application "Reel Nest" (the "Service").
+
+Article 2 (Definitions)
+1. "Service" means all functionality provided by the Company, including web browsing, media file detection and download, and file storage and management.
+2. "User" means a person who uses the Service under these Terms.
+3. "Content" means any web page, video, image, or other material a User views or downloads through the Service.
+4. "Protected Content" means content to which technical protection measures such as encryption or DRM (digital rights management) are applied.
+5. "Paid Service" or "Pro" means the paid subscription add-ons offered by the Company (ad-free video downloads, removal of the Nest storage limit, etc.).
+6. "Free Plan" or "Free User" means the state of not using the Paid Service, or a User in that state.
+
+Article 3 (Effect and Amendment of Terms)
+1. These Terms are made known to Users by being posted in the Service and on the Company's terms web page (https://fellow-survivor-studio.github.io/reel-nest/terms/). Before a User uses the download feature for the first time, the Company presents the key points of these Terms and obtains the User's consent; a User who does not consent cannot use the download feature.
+2. The Company may amend these Terms to the extent permitted by applicable law. When amending these Terms, the Company will announce the effective date, the reason for the change, and a comparison of the provisions before and after the change in a notice shown when the app is launched and on the terms web page in paragraph 1, starting at least 7 days before the effective date (at least 30 days for changes that are unfavorable to Users or otherwise significant).
+3. 【Important】 A change that is unfavorable to Users applies to a User only if that User agrees to the amended Terms, and the Company will obtain that consent before the User uses the download feature or Nest again. For other changes, if the Company has clearly and separately stated in the notice under paragraph 2 that "you will be deemed to agree unless you indicate that you refuse by the effective date," and the User does not indicate refusal by the effective date through the [Disagree] button in the notice or the Company's contact address, the User is deemed to agree to the amended Terms. A User who does not agree to the amended Terms may stop using the Service, and a Pro User may cancel early and receive a refund under Article 6(3)(b).
+
+Article 4 (Provision and Modification of the Service)
+1. The Company provides the following features:
+   - Web page browsing (browser)
+   - Detection and download of media resources within web pages (subject to the restrictions in Article 5)
+   - Storage and management of downloaded files
+   - Additional features such as browsing history, download history, and bookmarks
+   - Private in-app storage ("Nest") (Free Users may use up to 500MB; see Article 5-2)
+   - Ad-free video downloads and removal of the Nest storage limit through a Pro subscription
+2. The Company may modify all or part of the Service for operational or technical reasons, and will announce the content and effective date of such changes in advance.
+3. The Company may release updates to improve the Service, and some features may only be available in the latest version.
+4. If the Company discontinues the Service or changes the main features of the Paid Service to the disadvantage of Users, it will notify Users in the app at least 30 days before the change takes effect. In that case, a Pro User may cancel early under Article 6(3)(b) and receive a refund for the remaining period; if the Service is discontinued, the Company will refund the amount for the remaining period even without a request from the User.
+
+Article 5 (Notes on Using the Download Feature)
+1. The Service is a general-purpose tool that helps Users save media resources detected on web pages they visit to their own device; it is not intended to provide, distribute, or circulate any specific content.
+2. 【Important】 Users are responsible for confirming for themselves that they have a lawful right to use any content they download (such as the copyright holder's permission or another valid basis), and must comply with copyright law and other applicable laws.
+3. 【Important】 Legal liability arising from a User downloading, copying, or distributing content that infringes the copyright, portrait rights, or other rights of others through the Service lies with the User who committed the act. However, the Company is liable under applicable law for any part caused by the intent or negligence of the Company (including its agents and employees).
+4. The Company has no feature that checks or monitors what content Users view or download, and does not intervene in the content Users choose.
+5. 【Important】 The Service does not support downloading the following content:
+   - Content that a streaming playlist or manifest (HLS, DASH, etc.) marks as encrypted or DRM-protected
+   - Content from certain sites that the Company has determined do not permit content downloads (OTT services, YouTube, etc.)
+   The Company may change the restricted sites to protect rights and to comply with applicable policies.
+6. 【Important】 The Service cannot identify every technical protection measure, and the fact that content can be downloaded through the Service does not mean that the User has the right to save it. A User who wishes to save content with access restrictions such as a login, a paid pass, or a limited viewing period must first check the terms of the website concerned and whether the rights holder permits it.
+
+Article 5-2 (Use of Nest)
+1. Free Users may keep up to 500MB (1MB = 1,000,000 bytes) of files in Nest, and Pro Users may use Nest without a storage limit within the storage available on their device.
+2. 【Important】 If a Pro subscription ends while the files kept in Nest exceed the free limit, the existing files are not deleted and can still be viewed or exported, but no new files can be added to Nest until the stored amount falls below the limit.
+3. 【Important】 Liability related to the copyright, portrait rights, or other rights in content kept in Nest lies with the User who kept that content. However, this does not apply to any part caused by the intent or negligence of the Company (including its agents and employees).
+4. 【Important】 The Company does not provide backups of files kept in Nest. Files in Nest and their list, the download history, and the Nest lock PIN information are stored only inside the User's device, cannot be accessed by other apps, and are not included in cloud backups or device-to-device data transfer (moving to a new device). This does not apply to files the User exports to public storage or opens in another app, or to devices whose operating-system protections have been disabled (for example, by rooting).
+5. 【Important】 Uninstalling the app or resetting the device also deletes the files in Nest, and changing devices does not move them to the new device; the Company cannot recover them. Please export any files you want to keep to public storage in advance.
+6. The Nest lock PIN is stored only on the User's device, so the Company cannot check or reset it. After several consecutive incorrect entries, PIN entry is restricted for a period of time. If the User forgets the PIN and cannot use the device's biometric authentication, Nest cannot be opened; in that case, clearing the app data also deletes the files in Nest.
+7. 【Important】 The Company is not responsible for the loss of or damage to data that Users create, edit, or delete through the Service (including files in Nest). However, this does not apply where it is caused by the intentional misconduct or gross negligence of the Company (including its agents and employees).
+8. When a User first uses Nest, the Company presents the key points of paragraphs 1 through 7 and obtains the User's consent; a User who does not consent cannot use Nest.
+
+Article 6 (Paid Service and Payment)
+1. 【Important】 Payment for Pro is made through the Google Play billing system. Matters of withdrawal, cancellation, and refunds not covered by these Terms or Google Play's policies are governed by applicable laws such as the Act on Consumer Protection in Electronic Commerce, etc. of the Republic of Korea, and where applicable law is more favorable to the User, applicable law prevails.
+2. 【Important】 (Withdrawal) A User may withdraw from the purchase within 7 days of paying for Pro (or, for an automatic renewal, of the renewal payment date), and the Company will refund the full amount paid.
+3. 【Important】 (Cancellation) A User may cancel Pro at any time.
+   (a) Regular cancellation: If the User cancels in Google Play's subscription management menu, no further charges are made from the next billing date, and the User can keep using Pro until the end of the period already paid for.
+   (b) Early cancellation: If the User requests it at the Company's contact address (fellow.survivor.studio@gmail.com), the Company ends the User's Pro access on the day it confirms the request and refunds the amount paid minus the amount for the period already used. The amount for the period already used is calculated by dividing the amount paid by the total number of days in that billing period and multiplying by the number of days used.
+4. Withdrawal and refunds may be requested through Google Play's refund request process or at the Company's contact address, and the Company will process the refund through Google Play within 3 business days of receiving the request.
+5. 【Important】 The subscription renews automatically at each billing cycle until the User cancels it. Subscription prices, plans, and benefits follow what is shown on the in-app subscription screen. If the Company intends to raise the subscription price, it will give notice of the new price and the effective date in the manner and within the period required by applicable law and will obtain the User's consent; if the User does not consent, the subscription will not renew at the higher price and will end when the current billing period ends.
+6. The basic features of the Service are available regardless of whether the User subscribes to Pro. However, a Free User must watch a rewarded ad to the end to download videos, and can then download videos for 5 minutes from the time the ad finishes (any remaining time is lost if the device restarts). If the Company cannot confirm the subscription status (because of a network error, a failure to connect to Google Play, etc.), video downloads may be temporarily unavailable.
+
+Article 6-2 (Use by Minors)
+1. The Service is not directed at children under the age of 14.
+2. If a minor under the age of 19 pays for the Paid Service without the consent of a legal guardian, the minor or the legal guardian may cancel the contract. However, this does not apply where cancellation is not permitted by applicable law, such as where the minor used deception to make the Company believe that he or she was an adult.
+
+Article 7 (Advertising)
+The Company may show ads from third-party ad networks (such as Google AdMob) to Free Users to help operate the Service, and a Free User's video downloads are tied to watching rewarded ads under Article 6(6). Ads provided by the Company are not shown to Pro Users (ads that are part of the web pages Users visit are excluded).
+
+Article 8 (User Obligations)
+Users must not engage in any of the following:
+1. Violating applicable laws or these Terms
+2. Infringing the intellectual property rights, portrait rights, or personal information of others
+3. Reverse engineering, decompiling, disassembling, or attempting to extract the source code of the Service (except where permitted by law)
+4. Interfering with the normal operation of the Service or using it to harm others
+5. Using the Paid Service through unauthorized means such as bypassing authentication or payment
+6. Circumventing or disabling the Service's technical restrictions, such as the download restrictions on Protected Content or restricted sites
+
+Article 9 (Company Obligations and Disclaimer)
+1. The Company will not engage in conduct prohibited by applicable law or these Terms, and will strive to provide a stable Service.
+2. The Company does not guarantee that the Service will be free of errors or uninterrupted. However, the Company is responsible for providing the features shown on the subscription screen for the Paid Service, and this paragraph does not exclude any liability the Company bears under applicable law.
+3. The Company is not liable for Service disruptions caused by force majeure, telecommunications failures, causes attributable to the User, or circumstances involving third parties (website operators, ad networks, payment services, etc.). However, this does not apply where it is caused by the intentional misconduct or gross negligence of the Company (including its agents and employees).
+4. The Company does not warrant and is not involved in the content, accuracy, or legality of material Users view or download through the Service.
+5. 【Important】 To the maximum extent permitted by law, the Company's liability for damages to a User is limited to the greater of the fees that User paid to the Company for the Paid Service in the 12 months before the damage occurred and KRW 100,000. However, this limit does not apply to damage caused by the intentional misconduct or gross negligence of the Company (including its agents and employees), or to damage for which liability cannot be limited under applicable law.
+
+Article 10 (Intellectual Property)
+1. Copyright and other intellectual property rights in the Service itself (source code, design, logo, trademarks, etc.) belong to the Company.
+2. Rights to open-source software included in the Service belong to their respective license holders; the relevant notices can be found on the "Open Source Licenses" screen within the app.
+3. Users may not reproduce, transmit, publish, distribute, broadcast, or otherwise use all or part of the Service, or allow a third party to do so, without the Company's prior written consent.
+
+Article 11 (Termination)
+Users may stop using the Service at any time by uninstalling the app. A Pro subscription must be cancelled separately under Article 6(3).
+
+Article 12 (Governing Law and Jurisdiction)
+1. 【Important】 These Terms and any dispute between the Company and a User are governed by the laws of the Republic of Korea, and any lawsuit will be brought before the court of competent jurisdiction under the Civil Procedure Act of the Republic of Korea.
+2. Where a User who is a consumer residing outside the Republic of Korea is protected by mandatory consumer-protection rules of the law of his or her place of residence (including rules on jurisdiction), these Terms do not limit the User's rights under those rules.
+
+Article 13 (Translations)
+These Terms were written in Korean and may be provided in translation. If a translation differs from the Korean version, the Korean version prevails.
+
+Addendum
+These Terms take effect on September 13, 2026.
+
+Business Information
+Name: Fellow Survivor Studio
+Business registration number: 773-26-02197
+Contact email: fellow.survivor.studio@gmail.com
