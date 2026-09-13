@@ -1,6 +1,6 @@
 Reel Nest Privacy Policy
 
-Effective date: September 13, 2026
+Effective date: September 14, 2026
 
 Fellow Survivor Studio (the "Company") values the personal information of users of the mobile application "Reel Nest" (the "App") and complies with the Personal Information Protection Act of the Republic of Korea and other applicable laws. This Policy explains how the App accesses, collects, uses, provides, retains, and destroys user and device data.
 
@@ -31,7 +31,7 @@ B. Data sent outside your device while using the App
 - Web browsing and downloads: When you visit a website or detect or download a resource, the request URL, IP address, User-Agent, Referer, cookies, and other necessary request headers may be sent to that website, content provider, or CDN. This is to display the pages and download the files you request, and it happens directly between your device and the website without passing through the Company.
 - Search: If you enter search terms rather than a web address in the address bar, the terms are sent to Google Search and processed under Google's privacy policy.
 - Google Firebase Crashlytics (error analysis): If the App crashes, crash logs, stack traces, app, device, and operating-system information, diagnostic information at the time of the crash, and the Crashlytics installation identifier and Firebase installation ID are sent to Google to analyze errors and improve stability. The installation identifiers are generated randomly when the App is first launched and are not linked to your name or contact details. The App does not use any usage statistics (analytics) tools.
-- Google AdMob and User Messaging Platform (ads): When a Free User chooses to watch a rewarded ad to download videos, the advertising ID, IP address, device and app information, ad view and interaction information, diagnostic information, and consent status are sent to Google for ad delivery, frequency capping, fraud prevention, measurement, and legal consent management. The App uses Google AdMob as its only ad network. In regions where additional consent is required by law (such as the European Economic Area, the United Kingdom, and Switzerland), a separate consent screen is shown before ads are requested, and you can reopen your ad privacy choices from the Subscription section of Settings. When you open the Settings screen, device and app information and your IP address may be sent to Google to check whether the ad privacy settings menu should be shown.
+- Google AdMob and User Messaging Platform (ads): To provide rewarded ads to Free Users, the App requests an ad in advance once you are confirmed as a Free User and shows it when you choose to watch an ad. When an ad is requested or shown, the advertising ID, IP address, device and app information, ad view and interaction information, diagnostic information, and consent status are sent to Google for ad delivery, frequency capping, fraud prevention, measurement, and legal consent management. The App uses Google AdMob as its only ad network. In regions where additional consent is required by law (such as the European Economic Area, the United Kingdom, and Switzerland), a separate consent screen is shown before ads are requested, and you can reopen your ad privacy choices from the Subscription section of Settings. When you open the Settings screen, device and app information and your IP address may be sent to Google to check whether the ad privacy settings menu should be shown.
 - Google Play billing: Subscription purchases and payments are processed by Google under the terms between you and Google. The Company receives the subscription product, purchase status, and purchase token from Google Play and uses them only to confirm and restore subscriptions; the Company does not collect or store your payment card information.
 
 The App does not offer registration or its own user accounts, and does not create user profiles on Company servers.
@@ -43,7 +43,7 @@ The Company processes the above data only for the following purposes, and will t
 - Restoring tabs, keeping browsing and download history, bookmarks, and preferences, and providing the Nest lock
 - Confirming and recording consent to the Terms of Use
 - Checking subscription status and restoring subscriptions
-- Providing rewarded ads chosen by Free Users
+- Providing rewarded ads to Free Users (including requesting an ad in advance)
 - Diagnosing crashes and improving app stability
 - Handling user requests such as withdrawal, refunds, and cancellation, meeting legal obligations, and responding to inquiries
 
@@ -53,7 +53,7 @@ The Company processes personal information as follows.
 - Data stored only on your device (Section 2.A): not collected by the Company; processed only on your device.
 - Google Play purchase information needed to confirm and restore subscriptions: conclusion and performance of a contract (Article 15(1)(4) of the Personal Information Protection Act)
 - Error analysis (Firebase Crashlytics): the Company's legitimate interest in providing a stable service (Article 15(1)(6) of the same Act). It is sent only when a crash occurs and is processed with random identifiers that cannot identify you.
-- Rewarded ad delivery (Google AdMob): conclusion and performance of a contract to provide the rewarded ad you choose (Article 15(1)(4) of the same Act). Ad measurement and fraud prevention are based on the Company's legitimate interest in operating the Service (Article 15(1)(6) of the same Act).
+- Rewarded ad delivery (Google AdMob): conclusion and performance of a contract to provide the rewarded ad you choose (Article 15(1)(4) of the same Act). Requesting ads in advance, ad measurement, and fraud prevention are based on the Company's legitimate interest in operating a free, ad-supported Service (Article 15(1)(6) of the same Act).
 - Withdrawal, refund, and cancellation requests and inquiries: performance of a contract at your request (Article 15(1)(4)) and compliance with legal obligations (Article 15(1)(2))
 In regions where consent is required by law (such as the European Economic Area, the United Kingdom, and Switzerland), ad-related information is processed according to the consent given on the ad privacy consent screen.
 
@@ -74,10 +74,10 @@ For the entrusted tasks in Section 6, the Company transfers personal information
 - Recipient: Google LLC (privacy inquiries: https://support.google.com/policies/contact/general_privacy_form)
 - Destination countries: the United States and other countries where Google operates data centers (list: https://www.google.com/about/datacenters/locations/)
 - Items transferred: for error analysis — crash logs, stack traces, app, device, and operating-system information, diagnostic information, the Crashlytics installation identifier, and the Firebase installation ID; for ads — the advertising ID, IP address, device and app information, ad view and interaction information, diagnostic information, and consent status
-- Timing and method: sent over the network — for error analysis, when the App is relaunched after a crash; for ads, when a Free User watches a rewarded ad
+- Timing and method: sent over the network — for error analysis, when the App is relaunched after a crash; for ads, when an ad is requested in advance for a confirmed Free User and when a rewarded ad is shown
 - Purpose: the entrusted tasks in Section 6
 - Retention period: 90 days for error analysis (as published by Firebase); for ads, the period set by Google's privacy policy
-- How to refuse and consequences of refusal: Error analysis is necessary to provide a stable service and cannot be turned off in the App; if you do not want it, you can stop using the App (uninstall it). Ad-related transfers do not occur unless you watch a rewarded ad; in that case, video downloads are not available on the Free Plan. You can delete or reset your advertising ID in Android settings.
+- How to refuse and consequences of refusal: Error analysis is necessary to provide a stable service and cannot be turned off in the App; if you do not want it, you can stop using the App (uninstall it). Ad-related transfers take place to provide ads to Free Users; no ads are requested for Pro users. If you do not want them, you can use Pro or stop using the App. You can delete or reset your advertising ID in Android settings.
 
 For more information about how Google services process data:
 https://policies.google.com/privacy
@@ -103,7 +103,7 @@ Because error analysis information is processed with random installation identif
 
 10. Installation, Operation, and Refusal of Automatic Data Collection
 - Installation identifiers for error analysis (Firebase Crashlytics installation identifier and Firebase installation ID): generated when the App is first launched and used only for error analysis. They are deleted when you uninstall the App.
-- Advertising ID (Google AdMob): used for ad delivery and measurement when a Free User watches a rewarded ad. In regions such as the Republic of Korea where separate prior consent is not required by law, Google may use the advertising ID and ad view and interaction information to show ads tailored to your interests (personalized ads). You can stop receiving personalized ads by deleting or resetting your advertising ID in Android Settings > Privacy > Ads (on some devices, Google > Ads).
+- Advertising ID (Google AdMob): used for ad delivery and measurement when a rewarded ad is requested or shown for a Free User. In regions such as the Republic of Korea where separate prior consent is not required by law, Google may use the advertising ID and ad view and interaction information to show ads tailored to your interests (personalized ads). You can stop receiving personalized ads by deleting or resetting your advertising ID in Android Settings > Privacy > Ads (on some devices, Google > Ads).
 - WebView cookies: set by the websites you visit and used for their features, such as keeping you signed in. You can delete them in Settings > Privacy > Clear cookies & cache.
 
 11. Security Measures

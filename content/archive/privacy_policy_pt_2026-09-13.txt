@@ -1,0 +1,143 @@
+Política de Privacidade do Reel Nest
+
+Data de vigência: 13 de setembro de 2026
+
+A Fellow Survivor Studio (doravante "a Empresa") valoriza as informações pessoais dos usuários do aplicativo móvel "Reel Nest" (doravante "o Aplicativo") e cumpre a Lei de Proteção de Informações Pessoais da República da Coreia e as demais leis aplicáveis. Esta política explica como o Aplicativo acessa, coleta, usa, fornece, retém e destrói os dados do usuário e do dispositivo.
+
+1. Controlador e encarregado de proteção de dados
+Nome: Fellow Survivor Studio
+Número de registro comercial: 773-26-02197
+Encarregado de proteção de informações pessoais: Representante
+Proteção de dados e atendimento a reclamações: Suporte ao cliente (a cargo do Representante)
+Contato: fellow.survivor.studio@gmail.com
+
+2. Dados tratados pelo Aplicativo
+
+A. Dados armazenados somente no dispositivo
+Para fornecer seus recursos, o Aplicativo armazena as seguintes informações no dispositivo do usuário. Essas informações não são enviadas a nenhum servidor operado pela Empresa, e a Empresa não pode visualizá-las.
+
+- Dados de navegação: URLs, títulos e horários de visita das páginas visitadas (até 500 registros), URLs das abas abertas, URL da página inicial, títulos e URLs dos favoritos, e cookies, cache, armazenamento web e ícones de sites do WebView
+- Dados de download: arquivos baixados, nomes de arquivo, URLs de origem, formatos e tipos de arquivo, locais de salvamento, horários de conclusão e imagens de pré-visualização
+- Dados escolhidos pelo usuário: a imagem escolhida como fundo da tela inicial e os arquivos de mídia importados para o Nest
+- Dados de configuração: preferências do Aplicativo, como tema, tamanho do texto, posição da barra de endereço, bloqueio de anúncios, retenção de histórico e de sessão e local de salvamento, bem como se o usuário aceitou os Termos de Uso antes de baixar, a versão dos Termos aceita e o horário da aceitação, e se aceitou o aviso do Nest
+- Dados do bloqueio do Nest: se o bloqueio está ativado, um hash unidirecional do PIN com um salt aleatório, e o número de tentativas incorretas consecutivas e o horário em que termina a restrição de digitação. O PIN em si não é armazenado. As informações biométricas são tratadas pelo sistema Android, e o Aplicativo não acessa nem armazena dados biométricos originais, como impressões digitais ou dados faciais.
+
+O salvamento do histórico de navegação e do histórico de downloads pode ser desativado separadamente em Configurações. Ao desativar o histórico de navegação, o histórico existente é excluído imediatamente, e ao desativar o histórico de downloads, o histórico de downloads existente é excluído imediatamente.
+
+Se o backup do Android estiver ativado no dispositivo, alguns dados do Aplicativo, como as configurações (incluindo se o bloqueio do Nest está ativado), o histórico de navegação, os favoritos e os dados do WebView (cookies e armazenamento de sites), podem ser incluídos no backup da conta Google do usuário ou na transferência de dados para um novo dispositivo pelo recurso de backup do sistema operacional. Esse tratamento segue as políticas do Google e as configurações do dispositivo do usuário. No entanto, os arquivos mantidos no Nest e sua lista, o histórico de downloads e as informações do PIN do bloqueio do Nest (hash do PIN, salt e número de falhas) são excluídos tanto dos backups na nuvem quanto da transferência de dados entre dispositivos.
+
+B. Dados enviados para fora do dispositivo durante o uso do Aplicativo
+
+- Navegação na web e downloads: quando o usuário visita um site ou detecta ou baixa um recurso, a URL da solicitação, o endereço IP, o User-Agent, o Referer, os cookies e os demais cabeçalhos de solicitação necessários podem ser enviados a esse site, provedor de conteúdo ou CDN. Isso serve para exibir as páginas e baixar os arquivos solicitados pelo usuário e ocorre diretamente entre o dispositivo do usuário e o site, sem passar pela Empresa.
+- Pesquisa: se o usuário digitar na barra de endereço um termo de pesquisa em vez de um endereço web, o termo é enviado à Pesquisa Google e tratado de acordo com a política de privacidade do Google.
+- Google Firebase Crashlytics (análise de erros): se o Aplicativo fechar inesperadamente, registros de falhas, rastreamentos de pilha, informações do Aplicativo, do dispositivo e do sistema operacional, informações de diagnóstico do momento da falha e o identificador de instalação do Crashlytics e o ID de instalação do Firebase são enviados ao Google para analisar erros e melhorar a estabilidade. Os identificadores de instalação são gerados aleatoriamente na primeira abertura do Aplicativo e não estão vinculados ao nome ou aos dados de contato do usuário. O Aplicativo não usa ferramentas de estatísticas de uso (análise).
+- Google AdMob e User Messaging Platform (anúncios): quando um usuário gratuito escolhe assistir a um anúncio premiado para baixar vídeos, o ID de publicidade, o endereço IP, as informações do dispositivo e do Aplicativo, as informações de visualização e interação com anúncios, as informações de diagnóstico e o status do consentimento são enviados ao Google para veiculação de anúncios, limitação de frequência, prevenção de fraudes, mensuração e gestão do consentimento exigido por lei. O Aplicativo usa o Google AdMob como sua única rede de publicidade. Nas regiões em que a lei exige consentimento adicional (como o Espaço Econômico Europeu, o Reino Unido e a Suíça), uma tela de consentimento separada é exibida antes da solicitação de anúncios, e o usuário pode reabrir suas opções de privacidade de anúncios na seção Assinatura das Configurações. Ao abrir a tela de Configurações, as informações do dispositivo e do Aplicativo e o endereço IP podem ser enviados ao Google para verificar se o menu de configurações de privacidade de anúncios deve ser exibido.
+- Faturamento do Google Play: as compras e pagamentos de assinaturas são processados pelo Google de acordo com os termos entre o usuário e o Google. A Empresa recebe do Google Play o produto da assinatura, o status da compra e o token de compra e os usa somente para confirmar e restaurar assinaturas; a Empresa não coleta nem armazena as informações do cartão de pagamento do usuário.
+
+O Aplicativo não oferece cadastro nem contas de usuário próprias e não cria perfis de usuário nos servidores da Empresa.
+
+3. Finalidades do tratamento
+A Empresa trata os dados acima somente para as seguintes finalidades e adotará as medidas exigidas pela legislação aplicável caso elas mudem.
+
+- Exibir páginas da web, detectar e baixar recursos de mídia e gerenciar arquivos
+- Restaurar abas, manter o histórico de navegação e de downloads, os favoritos e as preferências, e fornecer o bloqueio do Nest
+- Confirmar e registrar a aceitação dos Termos de Uso
+- Verificar o status da assinatura e restaurar assinaturas
+- Exibir os anúncios premiados escolhidos pelos usuários gratuitos
+- Diagnosticar falhas e melhorar a estabilidade do Aplicativo
+- Atender solicitações dos usuários, como desistência, reembolso e cancelamento, cumprir obrigações legais e responder a consultas
+
+4. Base legal do tratamento
+A Empresa trata as informações pessoais da seguinte forma.
+
+- Dados armazenados somente no dispositivo (item 2.A): não são coletados pela Empresa; são tratados apenas no dispositivo do usuário.
+- Informações de compra do Google Play necessárias para confirmar e restaurar assinaturas: celebração e execução de contrato (artigo 15, parágrafo 1, inciso 4 da Lei de Proteção de Informações Pessoais)
+- Análise de erros (Firebase Crashlytics): interesse legítimo da Empresa em prestar um serviço estável (mesmo parágrafo, inciso 6). Os dados só são enviados quando ocorre uma falha e são tratados com identificadores aleatórios que não permitem identificar o usuário.
+- Veiculação de anúncios premiados (Google AdMob): celebração e execução de contrato para fornecer o anúncio premiado escolhido pelo usuário (mesmo parágrafo, inciso 4). A mensuração de anúncios e a prevenção de fraudes baseiam-se no interesse legítimo da Empresa em operar o Serviço (mesmo parágrafo, inciso 6).
+- Solicitações de desistência, reembolso e cancelamento e resposta a consultas: execução de contrato a pedido do usuário (artigo 15, parágrafo 1, inciso 4) e cumprimento de obrigações legais (mesmo parágrafo, inciso 2)
+Nas regiões em que a lei exige consentimento (como o Espaço Econômico Europeu, o Reino Unido e a Suíça), as informações relacionadas a anúncios são tratadas de acordo com o consentimento dado na tela de consentimento de privacidade de anúncios.
+
+5. Fornecimento de informações pessoais a terceiros
+A Empresa não vende as informações pessoais do usuário nem as fornece a terceiros, exceto quando exigido especificamente por lei ou solicitado por autoridades de investigação de acordo com os procedimentos legais. Os sites de terceiros que o usuário visita diretamente no Aplicativo tratam os dados de acordo com suas próprias políticas de privacidade, e a Empresa não interfere em seu tratamento independente de dados.
+
+6. Terceirização do tratamento
+A Empresa terceiriza o tratamento de informações pessoais da seguinte forma para prestar o Serviço.
+
+- Operador contratado: Google LLC
+- Tarefas terceirizadas: análise de erros do Aplicativo (Firebase Crashlytics); veiculação de anúncios e gestão do consentimento para anúncios (Google AdMob, User Messaging Platform)
+
+O Google pode tratar informações de acordo com a política de privacidade do Google no curso da veiculação de anúncios. Saiba como o Google usa informações de aplicativos parceiros em https://policies.google.com/technologies/partner-sites.
+
+7. Transferência internacional de informações pessoais
+Para as tarefas terceirizadas do item 6, a Empresa transfere informações pessoais para o exterior da seguinte forma, com base no artigo 28-8, parágrafo 1, inciso 3 da Lei de Proteção de Informações Pessoais.
+
+- Destinatário: Google LLC (consultas sobre privacidade: https://support.google.com/policies/contact/general_privacy_form)
+- Países de destino: Estados Unidos e outros países onde o Google opera data centers (lista: https://www.google.com/about/datacenters/locations/)
+- Itens transferidos: para a análise de erros — registros de falhas, rastreamentos de pilha, informações do Aplicativo, do dispositivo e do sistema operacional, informações de diagnóstico, o identificador de instalação do Crashlytics e o ID de instalação do Firebase; para os anúncios — o ID de publicidade, o endereço IP, as informações do dispositivo e do Aplicativo, as informações de visualização e interação com anúncios, as informações de diagnóstico e o status do consentimento
+- Momento e forma: enviados pela rede — na análise de erros, quando o Aplicativo é reaberto após uma falha; nos anúncios, quando um usuário gratuito assiste a um anúncio premiado
+- Finalidade: as tarefas terceirizadas do item 6
+- Período de retenção: 90 dias para a análise de erros (conforme divulgado pelo Firebase); para os anúncios, o período definido pela política de privacidade do Google
+- Como recusar e consequências da recusa: a análise de erros é necessária para prestar um serviço estável e não pode ser desativada no Aplicativo; caso não deseje, o usuário pode deixar de usar o Aplicativo (desinstalá-lo). As transferências relacionadas a anúncios só ocorrem se o usuário assistir a um anúncio premiado; caso contrário, os downloads de vídeo não ficam disponíveis no Plano gratuito. O ID de publicidade pode ser excluído ou redefinido nas configurações do Android.
+
+Mais informações sobre como os serviços do Google tratam dados:
+https://policies.google.com/privacy
+https://firebase.google.com/support/privacy
+https://policies.google.com/technologies/ads
+
+8. Retenção e destruição
+
+A. Período de retenção
+- Os dados do dispositivo são mantidos até que o usuário os exclua pelos recursos do Aplicativo ou desinstale o Aplicativo. O histórico de navegação é limitado a 500 registros.
+- As informações que a Empresa recebe por meio de consultas dos usuários (endereço de e-mail e conteúdo da consulta) são destruídas sem demora após o atendimento da consulta.
+- Os registros de transações, como solicitações de desistência, reembolso e cancelamento, são mantidos conforme a Lei de Proteção ao Consumidor no Comércio Eletrônico: registros de contratos, desistências e pagamentos por 5 anos, e registros de reclamações e resolução de disputas de consumidores por 3 anos.
+- Os períodos de retenção dos dados tratados pelo Google são os indicados no item 7.
+
+B. Procedimento e forma de destruição
+- Dados do dispositivo: o usuário pode excluí-los em cada tela de histórico, em Configurações > Privacidade > Limpar cookies e cache e nos recursos de gerenciamento de favoritos e arquivos; ao desativar o salvamento do histórico em Configurações, o histórico correspondente é excluído imediatamente. Ao desinstalar o Aplicativo, o sistema operacional exclui os dados do armazenamento interno privado do Aplicativo. Os arquivos exportados ou salvos no armazenamento de mídia público e as cópias de backup do Android/Google podem precisar ser excluídos separadamente.
+- Informações mantidas pela Empresa: ao fim do período de retenção, os arquivos eletrônicos são excluídos de forma irrecuperável.
+
+9. Direitos do titular e como exercê-los
+O usuário pode, a qualquer momento, solicitar acesso, correção, exclusão ou suspensão do tratamento de suas informações pessoais. Quanto aos dados armazenados somente no dispositivo, pode exercer esses direitos diretamente excluindo o histórico, alterando as configurações ou desinstalando o Aplicativo; quanto às informações mantidas pela Empresa, pode fazer a solicitação pelo contato do item 1. A Empresa informará as medidas adotadas em até 10 dias a contar do recebimento da solicitação. A solicitação também pode ser feita por meio de representante legal ou pessoa autorizada.
+
+Como as informações de análise de erros são tratadas com identificadores de instalação aleatórios que não permitem identificar o usuário, a Empresa não consegue localizar as informações de um usuário específico para dar acesso a elas ou excluí-las; o processo de exclusão começa após 90 dias. Ao desinstalar o Aplicativo, os identificadores de instalação também são excluídos e nenhum dado adicional é coletado. Quanto às informações enviadas ao Google em relação aos anúncios premiados, o usuário pode exercer seus direitos diretamente perante o Google, de acordo com a política de privacidade do Google. O Aplicativo não cria contas próprias, portanto não há conta do Aplicativo a ser excluída.
+
+10. Instalação, operação e recusa de mecanismos de coleta automática
+- Identificadores de instalação para análise de erros (identificador de instalação do Crashlytics e ID de instalação do Firebase): gerados na primeira abertura do Aplicativo e usados somente para a análise de erros. São excluídos ao desinstalar o Aplicativo.
+- ID de publicidade (Google AdMob): usado para veiculação e mensuração de anúncios quando um usuário gratuito assiste a um anúncio premiado. Em regiões como a República da Coreia, onde a lei não exige consentimento prévio específico, o Google pode usar o ID de publicidade e as informações de visualização e interação com anúncios para exibir anúncios adaptados aos interesses do usuário (anúncios personalizados). O usuário pode deixar de receber anúncios personalizados excluindo ou redefinindo o ID de publicidade em Configurações do Android > Privacidade > Anúncios (em alguns dispositivos, Google > Anúncios).
+- Cookies do WebView: definidos pelos sites que o usuário visita e usados para os recursos desses sites, como manter o login. Podem ser excluídos em Configurações > Privacidade > Limpar cookies e cache.
+
+11. Medidas de segurança
+O Aplicativo usa armazenamento privado do Aplicativo e os controles de acesso do Android. Os arquivos do Nest são mantidos no armazenamento interno do Aplicativo, que outros aplicativos não podem acessar, e são excluídos dos backups na nuvem e da transferência entre dispositivos. O PIN do Nest é armazenado em armazenamento criptografado como hash unidirecional com salt, e após várias tentativas incorretas consecutivas a digitação do PIN fica restrita por um período. As comunicações com serviços externos compatíveis usam proteção de transporte moderna, como HTTPS. No entanto, as conexões podem não ser criptografadas se o usuário visitar diretamente um site HTTP ou baixar um recurso HTTP.
+
+12. Permissões
+
+- Internet e estado da rede: usadas para navegação na web, downloads, anúncios, relatórios de erros e faturamento.
+- Notificações (Android 13 ou posterior): usadas para mostrar o andamento e o resultado dos downloads.
+- Serviço em primeiro plano: usado para continuar os downloads iniciados pelo usuário enquanto o Aplicativo está em segundo plano.
+- Manter o dispositivo ativo: usado para que os downloads e as transferências de dados dos SDKs (Firebase, serviços do Google Play) não sejam interrompidos.
+- Gravação no armazenamento externo (Android 9 ou anterior): usada para salvar arquivos no local de armazenamento público escolhido pelo usuário.
+- Biometria: usada para desbloquear o Nest. O Aplicativo não recebe os dados biométricos originais.
+- ID de publicidade e permissões relacionadas a anúncios: usados pelo Google AdMob para veiculação e mensuração de anúncios.
+- Faturamento: usado para comprar assinaturas pelo Google Play.
+
+O seletor de fotos é usado para acessar somente as imagens ou mídias que o usuário selecionar expressamente.
+
+13. Informações pessoais de crianças
+O Aplicativo não é direcionado a menores de 14 anos. Como o Aplicativo não verifica a idade dos usuários, as informações do item 2.B podem ser enviadas se um menor de 14 anos usar o Aplicativo. O responsável legal pode solicitar a exclusão ou a suspensão do tratamento dessas informações pelo contato do item 1.
+
+14. Meios de reparação
+Se precisar denunciar uma violação de suas informações pessoais ou obter orientação, você pode entrar em contato com os seguintes órgãos da República da Coreia.
+
+- Comitê de Mediação de Disputas sobre Informações Pessoais: 1833-6972, www.kopico.go.kr
+- Centro de Denúncias de Violação de Informações Pessoais: 118, privacy.kisa.or.kr
+- Procuradoria Suprema: 1301, www.spo.go.kr
+- Agência Nacional de Polícia da Coreia: 182, ecrm.police.go.kr
+
+15. Alterações nesta política
+Esta política pode ser revisada se os recursos do Aplicativo, os serviços de terceiros que ele utiliza ou a legislação aplicável mudarem. As alterações importantes serão anunciadas em um aviso exibido ao abrir o Aplicativo e na página web da Empresa (https://fellow-survivor-studio.github.io/reel-nest/), e a data de vigência no início deste documento será atualizada. As versões anteriores desta política também podem ser consultadas na mesma página web.
+
+16. Traduções
+Esta política foi redigida em coreano e pode ser disponibilizada em tradução. Se uma tradução divergir da versão em coreano, prevalecerá a versão em coreano.
+
+17. Contato
+Envie as dúvidas sobre esta política ou sobre o tratamento de informações pessoais para fellow.survivor.studio@gmail.com.
