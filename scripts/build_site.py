@@ -70,6 +70,9 @@ ARCHIVE = CONTENT / "archive"
 ARCHIVE_NAME_RE = re.compile(r"^(?P<source>[a-z_]+)_(?P<lang>[a-z]{2})_(?P<date>\d{4}-\d{2}-\d{2})\.txt$")
 
 BASE_URL = "https://fellow-survivor-studio.github.io/reel-nest/"
+# Hand-authored pages (not generated from content/*.txt) that should still appear in
+# the sitemap. Their index.html lives in the repo as-is and is left untouched by the build.
+EXTRA_SITEMAP_PATHS = ["home/"]
 URL_RE = re.compile(r"^https://[^\s]+$")
 # Privacy policy: numbered sections ("1. ...") with lettered subsections ("A." / "가.")
 PRIVACY_SECTION_RE = re.compile(r"^(\d+)\.\s+(.+)$")
@@ -284,7 +287,7 @@ def main() -> None:
                 archive_pages.append(path)
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{BASE_URL}{path}</loc></url>\n" for path in pages) + "</urlset>\n"
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{BASE_URL}{path}</loc></url>\n" for path in EXTRA_SITEMAP_PATHS + pages) + "</urlset>\n"
     (DIST / "sitemap.xml").write_text(sitemap, encoding="utf-8")
 
     # GitHub Pages is configured to publish from main/(root). Keep the generated
