@@ -1,6 +1,6 @@
 Reel Nest Terms of Use
 
-Effective date: September 13, 2026
+Effective date: October 20, 2026
 
 ※ Provisions marked 【Important】 significantly affect your rights and obligations. Please be sure to read them.
 
@@ -26,7 +26,7 @@ Article 4 (Provision and Modification of the Service)
    - Detection and download of media resources within web pages (subject to the restrictions in Article 5)
    - Storage and management of downloaded files
    - Additional features such as browsing history, download history, and bookmarks
-   - Private in-app storage ("Nest") (Free Users may use up to 500MB; see Article 5-2)
+   - Private in-app storage ("Nest") (Free Users may use up to 2GB; see Article 5-2)
    - Ad-free video downloads and removal of the Nest storage limit through a Pro subscription
 2. The Company may modify all or part of the Service for operational or technical reasons, and will announce the content and effective date of such changes in advance.
 3. The Company may release updates to improve the Service, and some features may only be available in the latest version.
@@ -44,7 +44,7 @@ Article 5 (Notes on Using the Download Feature)
 6. 【Important】 The Service cannot identify every technical protection measure, and the fact that content can be downloaded through the Service does not mean that the User has the right to save it. A User who wishes to save content with access restrictions such as a login, a paid pass, or a limited viewing period must first check the terms of the website concerned and whether the rights holder permits it.
 
 Article 5-2 (Use of Nest)
-1. Free Users may keep up to 500MB (1MB = 1,000,000 bytes) of files in Nest, and Pro Users may use Nest without a storage limit within the storage available on their device.
+1. Free Users may keep up to 2GB (1GB = 1,000,000,000 bytes) of files in Nest, and Pro Users may use Nest without a storage limit within the storage available on their device.
 2. 【Important】 If a Pro subscription ends while the files kept in Nest exceed the free limit, the existing files are not deleted and can still be viewed or exported, but no new files can be added to Nest until the stored amount falls below the limit.
 3. 【Important】 Liability related to the copyright, portrait rights, or other rights in content kept in Nest lies with the User who kept that content. However, this does not apply to any part caused by the intent or negligence of the Company (including its agents and employees).
 4. 【Important】 The Company does not provide backups of files kept in Nest. Files in Nest and their list, the download history, and the Nest lock PIN information are stored only inside the User's device, cannot be accessed by other apps, and are not included in cloud backups or device-to-device data transfer (moving to a new device). This does not apply to files the User exports to public storage or opens in another app, or to devices whose operating-system protections have been disabled (for example, by rooting).
@@ -61,7 +61,7 @@ Article 6 (Paid Service and Payment)
    (b) Early cancellation: If the User requests it at the Company's contact address (fellow.survivor.studio@gmail.com), the Company ends the User's Pro access on the day it confirms the request and refunds the amount paid minus the amount for the period already used. The amount for the period already used is calculated by dividing the amount paid by the total number of days in that billing period and multiplying by the number of days used.
 4. Withdrawal and refunds may be requested through Google Play's refund request process or at the Company's contact address, and the Company will process the refund through Google Play within 3 business days of receiving the request.
 5. 【Important】 The subscription renews automatically at each billing cycle until the User cancels it. Subscription prices, plans, and benefits follow what is shown on the in-app subscription screen. If the Company intends to raise the subscription price, it will give notice of the new price and the effective date in the manner and within the period required by applicable law and will obtain the User's consent; if the User does not consent, the subscription will not renew at the higher price and will end when the current billing period ends.
-6. The basic features of the Service are available regardless of whether the User subscribes to Pro. However, a Free User must watch a rewarded ad to the end to download videos, and can then download videos for 5 minutes from the time the ad finishes (any remaining time is lost if the device restarts). If the Company cannot confirm the subscription status (because of a network error, a failure to connect to Google Play, etc.), video downloads may be temporarily unavailable.
+6. The basic features of the Service are available regardless of whether the User subscribes to Pro. However, a Free User must watch a rewarded ad to the end to download videos, and can then download videos for 15 minutes from the time the ad finishes (any remaining time is lost if the device restarts). If the Company cannot confirm the subscription status (because of a network error, a failure to connect to Google Play, etc.), video downloads may be temporarily unavailable.
 
 Article 6-2 (Use by Minors)
 1. The Service is not directed at children under the age of 14.
@@ -102,7 +102,7 @@ Article 13 (Translations)
 These Terms were written in Korean and may be provided in translation. If a translation differs from the Korean version, the Korean version prevails.
 
 Addendum
-These Terms take effect on September 13, 2026.
+These Terms take effect on October 20, 2026.
 
 Business Information
 Name: Fellow Survivor Studio

@@ -1,6 +1,6 @@
 Términos de Uso de Reel Nest
 
-Fecha de vigencia: 13 de septiembre de 2026
+Fecha de vigencia: 20 de octubre de 2026
 
 ※ Las disposiciones marcadas con 【Importante】 afectan de forma significativa a los derechos y obligaciones del Usuario. Léalas con atención.
 
@@ -26,7 +26,7 @@ Artículo 4 (Prestación y modificación del Servicio)
    - Detección y descarga de recursos multimedia en páginas web (sujetas a las restricciones del artículo 5)
    - Almacenamiento y gestión de los archivos descargados
    - Funciones adicionales como el historial de navegación, el historial de descargas y los marcadores
-   - Espacio de almacenamiento privado dentro de la aplicación ("Nest") (los Usuarios gratuitos pueden usar hasta 500 MB; véase el artículo 5-2)
+   - Espacio de almacenamiento privado dentro de la aplicación ("Nest") (los Usuarios gratuitos pueden usar hasta 2 GB; véase el artículo 5-2)
    - Descargas de video sin anuncios y eliminación del límite de almacenamiento de Nest mediante la suscripción Pro
 2. La Compañía podrá modificar la totalidad o parte del Servicio por necesidades operativas o técnicas, y en tal caso anunciará con antelación el contenido y la fecha de efecto de los cambios.
 3. La Compañía podrá publicar actualizaciones para mejorar el Servicio, y algunas funciones podrán estar disponibles únicamente en la versión más reciente.
@@ -44,7 +44,7 @@ Artículo 5 (Notas sobre el uso de la función de descarga)
 6. 【Importante】 El Servicio no puede identificar todas las medidas técnicas de protección, y el hecho de que un contenido pueda descargarse a través del Servicio no significa que el Usuario tenga derecho a guardarlo. El Usuario que desee guardar contenido con restricciones de acceso, como un inicio de sesión, un pase de pago o un periodo de visualización limitado, deberá comprobar previamente los términos del sitio web correspondiente y si el titular de los derechos lo autoriza.
 
 Artículo 5-2 (Uso de Nest)
-1. Los Usuarios gratuitos pueden guardar en Nest hasta 500 MB (1 MB = 1.000.000 bytes) de archivos, y los Usuarios Pro pueden usar Nest sin límite de almacenamiento dentro del espacio disponible en su dispositivo.
+1. Los Usuarios gratuitos pueden guardar en Nest hasta 2 GB (1 GB = 1.000.000.000 bytes) de archivos, y los Usuarios Pro pueden usar Nest sin límite de almacenamiento dentro del espacio disponible en su dispositivo.
 2. 【Importante】 Si finaliza la suscripción Pro y los archivos guardados en Nest superan el límite gratuito, los archivos existentes no se eliminan y pueden seguir visualizándose o exportándose, pero no se podrán añadir archivos nuevos a Nest hasta que el espacio ocupado baje del límite.
 3. 【Importante】 La responsabilidad relativa a los derechos de autor, los derechos de imagen u otros derechos sobre el contenido guardado en Nest corresponde al Usuario que lo guardó. No obstante, esto no se aplica a la parte causada por dolo o culpa de la Compañía (incluidos sus auxiliares y empleados).
 4. 【Importante】 La Compañía no ofrece copias de seguridad de los archivos guardados en Nest. Los archivos de Nest y su lista, el historial de descargas y la información del PIN del bloqueo de Nest se almacenan únicamente en el dispositivo del Usuario, no son accesibles para otras aplicaciones y no se incluyen en las copias de seguridad en la nube ni en la transferencia de datos entre dispositivos (traslado a un dispositivo nuevo). Esto no se aplica a los archivos que el Usuario exporte al almacenamiento público o abra en otra aplicación, ni a los dispositivos cuyas protecciones del sistema operativo se hayan desactivado (por ejemplo, mediante root).
@@ -61,7 +61,7 @@ Artículo 6 (Servicio de pago y pagos)
    b) Cancelación anticipada: si el Usuario lo solicita a través del contacto de la Compañía (fellow.survivor.studio@gmail.com), la Compañía finalizará su acceso a Pro el día en que confirme la solicitud y le reembolsará el importe pagado menos el importe correspondiente al periodo ya utilizado. Dicho importe se calcula dividiendo el importe pagado entre el número total de días del periodo de facturación y multiplicándolo por el número de días utilizados.
 4. El desistimiento y los reembolsos pueden solicitarse mediante el procedimiento de solicitud de reembolso de Google Play o a través del contacto de la Compañía, y la Compañía tramitará el reembolso a través de Google Play en un plazo de 3 días hábiles desde la recepción de la solicitud.
 5. 【Importante】 La suscripción se renueva automáticamente en cada ciclo de facturación hasta que el Usuario la cancele. Los precios, planes y beneficios de la suscripción se rigen por lo indicado en la pantalla de suscripción de la aplicación. Si la Compañía pretende aumentar el precio de la suscripción, comunicará el nuevo importe y la fecha de aplicación en la forma y con la antelación que exija la legislación aplicable y obtendrá el consentimiento del Usuario; si el Usuario no lo otorga, la suscripción no se renovará al nuevo precio y finalizará al término del periodo de facturación en curso.
-6. Las funciones básicas del Servicio pueden utilizarse con independencia de la suscripción a Pro. No obstante, el Usuario gratuito debe ver un anuncio recompensado hasta el final para descargar videos, y a partir del momento en que termine podrá descargar videos durante 5 minutos (el tiempo restante se pierde si se reinicia el dispositivo). Si la Compañía no puede confirmar el estado de la suscripción (por un error de red, un fallo de conexión con Google Play, etc.), las descargas de video pueden quedar restringidas temporalmente.
+6. Las funciones básicas del Servicio pueden utilizarse con independencia de la suscripción a Pro. No obstante, el Usuario gratuito debe ver un anuncio recompensado hasta el final para descargar videos, y a partir del momento en que termine podrá descargar videos durante 15 minutos (el tiempo restante se pierde si se reinicia el dispositivo). Si la Compañía no puede confirmar el estado de la suscripción (por un error de red, un fallo de conexión con Google Play, etc.), las descargas de video pueden quedar restringidas temporalmente.
 
 Artículo 6-2 (Uso por menores)
 1. El Servicio no está dirigido a menores de 14 años.
@@ -102,7 +102,7 @@ Artículo 13 (Traducciones)
 Estos Términos se redactaron en coreano y pueden ofrecerse traducidos a otros idiomas. Si una traducción difiere de la versión en coreano, prevalecerá la versión en coreano.
 
 Disposición adicional
-Estos Términos entran en vigor el 13 de septiembre de 2026.
+Estos Términos entran en vigor el 20 de octubre de 2026.
 
 Información de la empresa
 Nombre: Fellow Survivor Studio

@@ -1,6 +1,6 @@
 Termos de Uso do Reel Nest
 
-Data de vigência: 13 de setembro de 2026
+Data de vigência: 20 de outubro de 2026
 
 ※ As disposições marcadas com 【Importante】 afetam de forma significativa os direitos e obrigações do Usuário. Leia-as com atenção.
 
@@ -26,7 +26,7 @@ Artigo 4 (Prestação e alteração do Serviço)
    - Detecção e download de recursos de mídia em páginas da web (sujeitos às restrições do artigo 5)
    - Armazenamento e gerenciamento dos arquivos baixados
    - Recursos adicionais, como histórico de navegação, histórico de downloads e favoritos
-   - Espaço de armazenamento privado no aplicativo ("Nest") (Usuários gratuitos podem usar até 500 MB; consulte o artigo 5-2)
+   - Espaço de armazenamento privado no aplicativo ("Nest") (Usuários gratuitos podem usar até 2 GB; consulte o artigo 5-2)
    - Downloads de vídeo sem anúncios e remoção do limite de armazenamento do Nest por meio da assinatura Pro
 2. A Empresa poderá alterar a totalidade ou parte do Serviço por necessidades operacionais ou técnicas e, nesse caso, anunciará previamente o conteúdo e a data de vigência das alterações.
 3. A Empresa poderá disponibilizar atualizações para melhorar o Serviço, e alguns recursos poderão estar disponíveis apenas na versão mais recente.
@@ -44,7 +44,7 @@ Artigo 5 (Observações sobre o uso do recurso de download)
 6. 【Importante】 O Serviço não consegue identificar todas as medidas técnicas de proteção, e o fato de um conteúdo poder ser baixado por meio do Serviço não significa que o Usuário tenha o direito de salvá-lo. O Usuário que desejar salvar conteúdo com restrições de acesso, como login, passe pago ou período de exibição limitado, deverá verificar previamente os termos do site em questão e se o titular dos direitos o autoriza.
 
 Artigo 5-2 (Uso do Nest)
-1. Usuários gratuitos podem manter no Nest até 500 MB (1 MB = 1.000.000 bytes) de arquivos, e Usuários Pro podem usar o Nest sem limite de armazenamento dentro do espaço disponível em seu dispositivo.
+1. Usuários gratuitos podem manter no Nest até 2 GB (1 GB = 1.000.000.000 bytes) de arquivos, e Usuários Pro podem usar o Nest sem limite de armazenamento dentro do espaço disponível em seu dispositivo.
 2. 【Importante】 Se a assinatura Pro terminar e os arquivos mantidos no Nest excederem o limite gratuito, os arquivos existentes não serão excluídos e poderão continuar sendo visualizados ou exportados, mas não será possível adicionar novos arquivos ao Nest até que o espaço ocupado fique abaixo do limite.
 3. 【Importante】 A responsabilidade relativa a direitos autorais, direitos de imagem ou outros direitos sobre o conteúdo mantido no Nest cabe ao Usuário que o manteve. No entanto, isso não se aplica à parte causada por dolo ou culpa da Empresa (incluindo seus prepostos e empregados).
 4. 【Importante】 A Empresa não oferece backup dos arquivos mantidos no Nest. Os arquivos do Nest e sua lista, o histórico de downloads e as informações do PIN do bloqueio do Nest são armazenados somente no dispositivo do Usuário, não podem ser acessados por outros aplicativos e não são incluídos em backups na nuvem nem na transferência de dados entre dispositivos (migração para um novo dispositivo). Isso não se aplica aos arquivos que o Usuário exportar para o armazenamento público ou abrir em outro aplicativo, nem a dispositivos cujas proteções do sistema operacional tenham sido desativadas (por exemplo, por root).
@@ -61,7 +61,7 @@ Artigo 6 (Serviço pago e pagamento)
    b) Cancelamento antecipado: se o Usuário solicitar pelo contato da Empresa (fellow.survivor.studio@gmail.com), a Empresa encerrará o acesso ao Pro no dia em que confirmar a solicitação e reembolsará o valor pago descontado o valor correspondente ao período já utilizado. Esse valor é calculado dividindo o valor pago pelo número total de dias do período de faturamento e multiplicando pelo número de dias utilizados.
 4. A desistência e os reembolsos podem ser solicitados pelo procedimento de solicitação de reembolso do Google Play ou pelo contato da Empresa, e a Empresa processará o reembolso pelo Google Play em até 3 dias úteis a contar do recebimento da solicitação.
 5. 【Importante】 A assinatura é renovada automaticamente a cada ciclo de faturamento até que o Usuário a cancele. Os preços, planos e benefícios da assinatura seguem o que é exibido na tela de assinatura do aplicativo. Se a Empresa pretender aumentar o preço da assinatura, informará o novo valor e a data de aplicação na forma e no prazo exigidos pela legislação aplicável e obterá o consentimento do Usuário; se o Usuário não consentir, a assinatura não será renovada pelo novo preço e terminará ao fim do período de faturamento em curso.
-6. Os recursos básicos do Serviço podem ser utilizados independentemente da assinatura do Pro. No entanto, o Usuário gratuito precisa assistir a um anúncio premiado até o fim para baixar vídeos e, a partir do momento em que ele terminar, poderá baixar vídeos por 5 minutos (o tempo restante é perdido se o dispositivo for reiniciado). Se a Empresa não conseguir confirmar o status da assinatura (por erro de rede, falha de conexão com o Google Play etc.), os downloads de vídeo poderão ficar temporariamente restritos.
+6. Os recursos básicos do Serviço podem ser utilizados independentemente da assinatura do Pro. No entanto, o Usuário gratuito precisa assistir a um anúncio premiado até o fim para baixar vídeos e, a partir do momento em que ele terminar, poderá baixar vídeos por 15 minutos (o tempo restante é perdido se o dispositivo for reiniciado). Se a Empresa não conseguir confirmar o status da assinatura (por erro de rede, falha de conexão com o Google Play etc.), os downloads de vídeo poderão ficar temporariamente restritos.
 
 Artigo 6-2 (Uso por menores)
 1. O Serviço não é direcionado a menores de 14 anos.
@@ -102,7 +102,7 @@ Artigo 13 (Traduções)
 Estes Termos foram redigidos em coreano e podem ser disponibilizados em tradução. Se uma tradução divergir da versão em coreano, prevalecerá a versão em coreano.
 
 Disposição final
-Estes Termos entram em vigor em 13 de setembro de 2026.
+Estes Termos entram em vigor em 20 de outubro de 2026.
 
 Informações da empresa
 Nome: Fellow Survivor Studio
