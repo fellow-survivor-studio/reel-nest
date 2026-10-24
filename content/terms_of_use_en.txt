@@ -1,6 +1,6 @@
 Reel Nest Terms of Use
 
-Effective date: October 21, 2026
+Effective date: October 25, 2026
 
 ※ Provisions marked 【Important】 significantly affect your rights and obligations. Please be sure to read them.
 
@@ -12,7 +12,7 @@ Article 2 (Definitions)
 2. "User" means a person who uses the Service under these Terms.
 3. "Content" means any web page, video, image, or other material a User views or downloads through the Service.
 4. "Protected Content" means content to which technical protection measures such as encryption or DRM (digital rights management) are applied.
-5. "Paid Service" or "Pro" means the paid subscription add-ons offered by the Company (ad-free video downloads, removal of the Nest storage limit, etc.).
+5. "Paid Service" or "Pro" means the paid subscription add-ons offered by the Company (ad-free video downloads, removal of the Nest storage limit, fast downloads and no limit on simultaneous downloads, etc.).
 6. "Free Plan" or "Free User" means the state of not using the Paid Service, or a User in that state.
 
 Article 3 (Effect and Amendment of Terms)
@@ -23,11 +23,11 @@ Article 3 (Effect and Amendment of Terms)
 Article 4 (Provision and Modification of the Service)
 1. The Company provides the following features:
    - Web page browsing (browser)
-   - Detection and download of media resources within web pages (subject to the restrictions in Article 5)
+   - Detection and download of media resources within web pages (subject to the restrictions in Article 5; Free Users download each file over up to 2 connections and can run up to 5 downloads at the same time, and further downloads start in turn as earlier ones finish)
    - Storage and management of downloaded files
    - Additional features such as browsing history, download history, and bookmarks
    - Private in-app storage ("Nest") (Free Users may use up to 2GB; see Article 5-2)
-   - Ad-free video downloads and removal of the Nest storage limit through a Pro subscription
+   - Ad-free video downloads, removal of the Nest storage limit, fast downloads (each download split over up to 32 connections), and no limit on simultaneous downloads through a Pro subscription
 2. The Company may modify all or part of the Service for operational or technical reasons, and will announce the content and effective date of such changes in advance.
 3. The Company may release updates to improve the Service, and some features may only be available in the latest version.
 4. If the Company discontinues the Service or changes the main features of the Paid Service to the disadvantage of Users, it will notify Users in the app at least 30 days before the change takes effect. In that case, a Pro User may cancel early under Article 6(3)(b) and receive a refund for the remaining period; if the Service is discontinued, the Company will refund the amount for the remaining period even without a request from the User.

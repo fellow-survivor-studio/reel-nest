@@ -1,6 +1,6 @@
 Termos de Uso do Reel Nest
 
-Data de vigência: 21 de outubro de 2026
+Data de vigência: 25 de outubro de 2026
 
 ※ As disposições marcadas com 【Importante】 afetam de forma significativa os direitos e obrigações do Usuário. Leia-as com atenção.
 
@@ -12,7 +12,7 @@ Artigo 2 (Definições)
 2. "Usuário" significa a pessoa que utiliza o Serviço de acordo com estes Termos.
 3. "Conteúdo" significa qualquer página da web, vídeo, imagem ou outro material que o Usuário visualize ou baixe por meio do Serviço.
 4. "Conteúdo protegido" significa o conteúdo ao qual são aplicadas medidas técnicas de proteção, como criptografia ou DRM (gerenciamento de direitos digitais).
-5. "Serviço pago" ou "Pro" significa os recursos adicionais por assinatura oferecidos pela Empresa mediante pagamento (downloads de vídeo sem anúncios, remoção do limite de armazenamento do Nest etc.).
+5. "Serviço pago" ou "Pro" significa os recursos adicionais por assinatura oferecidos pela Empresa mediante pagamento (downloads de vídeo sem anúncios, remoção do limite de armazenamento do Nest, downloads rápidos e sem limite de downloads simultâneos etc.).
 6. "Plano gratuito" ou "Usuário gratuito" significa a situação de não utilizar o Serviço pago, ou o Usuário que se encontra nessa situação.
 
 Artigo 3 (Vigência e alteração dos Termos)
@@ -23,11 +23,11 @@ Artigo 3 (Vigência e alteração dos Termos)
 Artigo 4 (Prestação e alteração do Serviço)
 1. A Empresa oferece os seguintes serviços:
    - Navegação de páginas da web (navegador)
-   - Detecção e download de recursos de mídia em páginas da web (sujeitos às restrições do artigo 5)
+   - Detecção e download de recursos de mídia em páginas da web (sujeitos às restrições do artigo 5; usuários gratuitos baixam cada arquivo com no máximo 2 conexões e podem ter até 5 downloads em andamento ao mesmo tempo; os demais começam na sequência, à medida que os anteriores terminam)
    - Armazenamento e gerenciamento dos arquivos baixados
    - Recursos adicionais, como histórico de navegação, histórico de downloads e favoritos
    - Espaço de armazenamento privado no aplicativo ("Nest") (Usuários gratuitos podem usar até 2 GB; consulte o artigo 5-2)
-   - Downloads de vídeo sem anúncios e remoção do limite de armazenamento do Nest por meio da assinatura Pro
+   - Downloads de vídeo sem anúncios, remoção do limite de armazenamento do Nest, downloads rápidos (cada download dividido em até 32 conexões) e sem limite de downloads simultâneos por meio da assinatura Pro
 2. A Empresa poderá alterar a totalidade ou parte do Serviço por necessidades operacionais ou técnicas e, nesse caso, anunciará previamente o conteúdo e a data de vigência das alterações.
 3. A Empresa poderá disponibilizar atualizações para melhorar o Serviço, e alguns recursos poderão estar disponíveis apenas na versão mais recente.
 4. Se a Empresa encerrar o Serviço ou alterar o conteúdo principal do Serviço pago em prejuízo dos Usuários, avisará no aplicativo com pelo menos 30 dias de antecedência da data de aplicação. Nesse caso, o Usuário Pro poderá cancelar antecipadamente nos termos do artigo 6, item 3, alínea b, e receber o reembolso do valor correspondente ao período restante; em caso de encerramento do Serviço, a Empresa reembolsará esse valor mesmo sem solicitação do Usuário.
