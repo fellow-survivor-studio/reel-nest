@@ -1,63 +1,20 @@
-# Reel Nest Legal Documents
+# Reel Nest Legal Documents (moved)
 
-Public site for the Reel Nest Android app's privacy policy and terms of use.
+**이 저장소는 더 이상 쓰지 않습니다. 2026-11-06에 회사 홈페이지 저장소로 옮겼습니다.**
+**This repository is no longer used. The pages moved to the company site repository on 2026-11-06.**
 
-## GitHub Pages
+| | 새 위치 / New location |
+| --- | --- |
+| 원문·생성 스크립트 / Sources and generator | [`fellow-survivor-studio.github.io/sources/reel-nest/`](https://github.com/fellow-survivor-studio/fellow-survivor-studio.github.io/tree/main/sources/reel-nest) (수정 방법은 그곳 README) |
+| 개인정보처리방침 / Privacy policy | https://fellowsurvivor.com/products/reel-nest/privacy/ |
+| 이용약관 / Terms of use | https://fellowsurvivor.com/products/reel-nest/terms/ |
+| 이전 버전 / Previous versions | `/products/reel-nest/privacy/archive/<date>/`, `/products/reel-nest/terms/archive/<date>/` |
 
-1. Push this repository to the `main` branch.
-2. Open **Settings → Pages** in GitHub.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Select the `main` branch and `/(root)` folder.
+옛 주소는 계속 새 주소로 넘어갑니다. Earlier addresses keep forwarding to the new ones:
 
-GitHub Pages publishes the generated files in the repository root, so a push to
-`main` publishes immediately. The public URLs are:
+- `https://fellow-survivor-studio.github.io/reel-nest/…` → GitHub Pages → `https://fellowsurvivor.com/reel-nest/…`
+- `https://fellowsurvivor.com/reel-nest/…` → the company site's `_redirects` rules → `https://fellowsurvivor.com/products/reel-nest/…`
 
-- Privacy policy: https://fellow-survivor-studio.github.io/reel-nest/ (other languages at `/{lang}/`)
-- Terms of use: https://fellow-survivor-studio.github.io/reel-nest/terms/ (other languages at `/terms/{lang}/`)
-
-Korean is the default at each path; `en`, `ja`, `zh`, `es` and `pt` are the other languages.
-
-## Cloudflare (parallel hosting)
-
-Since 2026-11-06 Cloudflare Workers serves https://fellowsurvivor.com/reel-nest/.
-GitHub Pages stays on, so a push to `main` still deploys to both, and the
-`github.io` addresses keep forwarding to fellowsurvivor.com.
-
-After every push to `main`, the GitHub Actions workflow **Cloudflare deploy check**
-waits for the Cloudflare build and compares each live file with the pushed one
-(`scripts/check-cloudflare-deploy.sh`). If the build fails or a file differs, the
-run fails and GitHub sends its failed-run notification.
-
-Rollback to GitHub Pages: remove the `fellowsurvivor.com/reel-nest` routes in the
-Cloudflare dashboard (takes effect at once), then remove them from `wrangler.jsonc`
-too. A deploy re-applies whatever routes `wrangler.jsonc` lists.
-
-- `wrangler.jsonc` configures the Cloudflare project `fellowsurvivor-reel-nest`.
-- `scripts/cloudflare-build.sh` runs before every deploy. It copies the tracked
-  site files into `.cf-dist/reel-nest/` so they are served under `/reel-nest/`,
-  and leaves the source texts, the generator, `.github/` and this README off Cloudflare.
-  `.cf-dist/` and `.wrangler/` are build output and are not committed.
-- The app's legal texts point to the `github.io` addresses, so GitHub Pages stays on
-  after the switch to forward those addresses to https://fellowsurvivor.com/reel-nest/
-
-## Updating the documents
-
-The texts must match the ones shipped in the app
-(`app/src/main/assets/legal/privacy_policy_*.txt` and `terms_of_use_*.txt`).
-
-The privacy policy promises that the previous version stays viewable on this
-site, so before overwriting a text, move the current one to
-`content/archive/<privacy_policy|terms_of_use>_<lang>_<YYYY-MM-DD>.txt`, where the
-date is its effective date. Previous versions are published under `archive/<date>/`
-(and `terms/archive/<date>/`), linked from the current page and excluded from the
-sitemap. A Korean file is required for each archived date.
-
-Then copy the new texts into `content/` and run:
-
-```sh
-python scripts/build_site.py
-```
-
-Commit both the updated source files and generated root/`dist` files. Publish
-on the same day as the app release that ships the same texts, and for a terms
-change follow the notice period in the terms (Article 3).
+App versions before 1.3.0 link to the github.io addresses, so this forwarding stays permanently. It does not depend on
+the files here. Do not edit or publish the documents here; the files are kept as history.
+The Cloudflare project `fellowsurvivor-reel-nest` has no routes and no automatic builds since the move.
