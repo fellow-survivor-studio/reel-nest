@@ -12,6 +12,8 @@
   },
   "workers_dev": false,
   "preview_urls": true,
+  // Branch and pull-request previews (wrangler preview needs this block, even empty).
+  "previews": {},
   // Test address while GitHub Pages still serves fellowsurvivor.com.
   "routes": [
     { "pattern": "new.fellowsurvivor.com/reel-nest*", "zone_name": "fellowsurvivor.com" }
