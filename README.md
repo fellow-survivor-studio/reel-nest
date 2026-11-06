@@ -23,6 +23,11 @@ Since 2026-11-06 Cloudflare Workers serves https://fellowsurvivor.com/reel-nest/
 GitHub Pages stays on, so a push to `main` still deploys to both, and the
 `github.io` addresses keep forwarding to fellowsurvivor.com.
 
+After every push to `main`, the GitHub Actions workflow **Cloudflare deploy check**
+waits for the Cloudflare build and compares each live file with the pushed one
+(`scripts/check-cloudflare-deploy.sh`). If the build fails or a file differs, the
+run fails and GitHub sends its failed-run notification.
+
 Rollback to GitHub Pages: remove the `fellowsurvivor.com/reel-nest` routes in the
 Cloudflare dashboard (takes effect at once), then remove them from `wrangler.jsonc`
 too. A deploy re-applies whatever routes `wrangler.jsonc` lists.
