@@ -12,7 +12,7 @@ rm -rf .cf-dist
 mkdir -p "$out"
 
 git ls-files -z -- . \
-  ':!README.md' ':!content/' ':!scripts/' ':!.gitignore' ':!wrangler.jsonc' \
+  ':!README.md' ':!content/' ':!scripts/' ':!.github/' ':!.gitignore' ':!wrangler.jsonc' \
   | xargs -0 cp --parents -t "$out"
 
 echo "Cloudflare build: $(find "$out" -type f | wc -l) files in $out"

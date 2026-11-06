@@ -33,10 +33,9 @@ Cloudflare dashboard (takes effect at once), then remove them from `wrangler.jso
 too. A deploy re-applies whatever routes `wrangler.jsonc` lists.
 
 - `wrangler.jsonc` configures the Cloudflare project `fellowsurvivor-reel-nest`.
-  The test address is https://new.fellowsurvivor.com/reel-nest/
 - `scripts/cloudflare-build.sh` runs before every deploy. It copies the tracked
   site files into `.cf-dist/reel-nest/` so they are served under `/reel-nest/`,
-  and leaves the source texts, the generator and this README off Cloudflare.
+  and leaves the source texts, the generator, `.github/` and this README off Cloudflare.
   `.cf-dist/` and `.wrangler/` are build output and are not committed.
 - The app's legal texts point to the `github.io` addresses, so GitHub Pages stays on
   after the switch to forward those addresses to https://fellowsurvivor.com/reel-nest/
