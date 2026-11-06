@@ -17,6 +17,18 @@ GitHub Pages publishes the generated files in the repository root, so a push to
 
 Korean is the default at each path; `en`, `ja`, `zh`, `es` and `pt` are the other languages.
 
+## Cloudflare (parallel hosting)
+
+Cloudflare Workers static hosting is being prepared alongside GitHub Pages. Once
+Cloudflare is connected to this repository, the same push to `main` deploys to both.
+
+- `wrangler.jsonc` configures the Cloudflare project `fellowsurvivor-reel-nest`.
+  `base_path` publishes the site under `/reel-nest/`; the test address is
+  https://new.fellowsurvivor.com/reel-nest/
+- `.assetsignore` keeps the source texts, the generator and this README off Cloudflare.
+- The app's legal texts point to the `github.io` addresses, so GitHub Pages stays on
+  after the switch to forward those addresses to https://fellowsurvivor.com/reel-nest/
+
 ## Updating the documents
 
 The texts must match the ones shipped in the app
