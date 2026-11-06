@@ -1,0 +1,18 @@
+// Cloudflare Workers static hosting for https://fellowsurvivor.com/reel-nest/
+// Runs alongside GitHub Pages until the switch. Files in .assetsignore are not published.
+{
+  "name": "fellowsurvivor-reel-nest",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    "base_path": "/reel-nest",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "workers_dev": false,
+  "preview_urls": true,
+  // Test address while GitHub Pages still serves fellowsurvivor.com.
+  "routes": [
+    { "pattern": "new.fellowsurvivor.com/reel-nest*", "zone_name": "fellowsurvivor.com" }
+  ]
+}
