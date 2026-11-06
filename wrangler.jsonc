@@ -14,11 +14,14 @@
   "preview_urls": true,
   // Branch and pull-request previews (wrangler preview needs this block, even empty).
   "previews": {},
-  // Test address while GitHub Pages still serves fellowsurvivor.com.
+  // fellowsurvivor.com is served by Cloudflare since 2026-11-06 (GitHub Pages stays on to
+  // forward the github.io addresses). new.fellowsurvivor.com is the test address.
   "routes": [
     // Exact /reel-nest (redirects to /reel-nest/) and everything under /reel-nest/ only, so the main
     // site's files that merely start with "reel-nest" (e.g. /reel-nest.css) stay with the main site.
     { "pattern": "new.fellowsurvivor.com/reel-nest", "zone_name": "fellowsurvivor.com" },
-    { "pattern": "new.fellowsurvivor.com/reel-nest/*", "zone_name": "fellowsurvivor.com" }
+    { "pattern": "new.fellowsurvivor.com/reel-nest/*", "zone_name": "fellowsurvivor.com" },
+    { "pattern": "fellowsurvivor.com/reel-nest", "zone_name": "fellowsurvivor.com" },
+    { "pattern": "fellowsurvivor.com/reel-nest/*", "zone_name": "fellowsurvivor.com" }
   ]
 }
