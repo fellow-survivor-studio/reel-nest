@@ -19,8 +19,13 @@ Korean is the default at each path; `en`, `ja`, `zh`, `es` and `pt` are the othe
 
 ## Cloudflare (parallel hosting)
 
-Cloudflare Workers static hosting is being prepared alongside GitHub Pages. Once
-Cloudflare is connected to this repository, the same push to `main` deploys to both.
+Since 2026-11-06 Cloudflare Workers serves https://fellowsurvivor.com/reel-nest/.
+GitHub Pages stays on, so a push to `main` still deploys to both, and the
+`github.io` addresses keep forwarding to fellowsurvivor.com.
+
+Rollback to GitHub Pages: remove the `fellowsurvivor.com/reel-nest` routes in the
+Cloudflare dashboard (takes effect at once), then remove them from `wrangler.jsonc`
+too. A deploy re-applies whatever routes `wrangler.jsonc` lists.
 
 - `wrangler.jsonc` configures the Cloudflare project `fellowsurvivor-reel-nest`.
   The test address is https://new.fellowsurvivor.com/reel-nest/
