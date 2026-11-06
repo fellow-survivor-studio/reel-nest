@@ -1,9 +1,11 @@
-// Cloudflare Workers static hosting for https://fellowsurvivor.com/reel-nest/
-// Serves the path since 2026-11-06. GitHub Pages stays on to forward github.io addresses.
+// Retired 2026-11-06: the Reel Nest policy pages moved to the company site repository
+// (fellow-survivor-studio.github.io, sources/reel-nest/), served at
+// https://fellowsurvivor.com/products/reel-nest/privacy/ and /terms/.
+// The Cloudflare project fellowsurvivor-reel-nest no longer has routes or automatic builds;
+// the old /reel-nest/... addresses are forwarded by the company site's _redirects rules.
 {
   "name": "fellowsurvivor-reel-nest",
   "compatibility_date": "2026-11-01",
-  // Copies the published files into .cf-dist/reel-nest/ so they are served under /reel-nest/.
   "build": { "command": "sh scripts/cloudflare-build.sh" },
   "assets": {
     "directory": "./.cf-dist",
@@ -11,13 +13,5 @@
     "not_found_handling": "none"
   },
   "workers_dev": false,
-  "preview_urls": true,
-  // Branch and pull-request previews (wrangler preview needs this block, even empty).
-  "previews": {},
-  "routes": [
-    // Exact /reel-nest (redirects to /reel-nest/) and everything under /reel-nest/ only, so the main
-    // site's files that merely start with "reel-nest" (e.g. /reel-nest.css) stay with the main site.
-    { "pattern": "fellowsurvivor.com/reel-nest", "zone_name": "fellowsurvivor.com" },
-    { "pattern": "fellowsurvivor.com/reel-nest/*", "zone_name": "fellowsurvivor.com" }
-  ]
+  "preview_urls": false
 }
