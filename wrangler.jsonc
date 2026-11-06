@@ -1,11 +1,12 @@
 // Cloudflare Workers static hosting for https://fellowsurvivor.com/reel-nest/
-// Runs alongside GitHub Pages until the switch. Files in .assetsignore are not published.
+// Runs alongside GitHub Pages until the switch.
 {
   "name": "fellowsurvivor-reel-nest",
   "compatibility_date": "2026-11-01",
+  // Copies the published files into .cf-dist/reel-nest/ so they are served under /reel-nest/.
+  "build": { "command": "sh scripts/cloudflare-build.sh" },
   "assets": {
-    "directory": ".",
-    "base_path": "/reel-nest",
+    "directory": "./.cf-dist",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none"
   },

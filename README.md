@@ -23,9 +23,11 @@ Cloudflare Workers static hosting is being prepared alongside GitHub Pages. Once
 Cloudflare is connected to this repository, the same push to `main` deploys to both.
 
 - `wrangler.jsonc` configures the Cloudflare project `fellowsurvivor-reel-nest`.
-  `base_path` publishes the site under `/reel-nest/`; the test address is
-  https://new.fellowsurvivor.com/reel-nest/
-- `.assetsignore` keeps the source texts, the generator and this README off Cloudflare.
+  The test address is https://new.fellowsurvivor.com/reel-nest/
+- `scripts/cloudflare-build.sh` runs before every deploy. It copies the tracked
+  site files into `.cf-dist/reel-nest/` so they are served under `/reel-nest/`,
+  and leaves the source texts, the generator and this README off Cloudflare.
+  `.cf-dist/` and `.wrangler/` are build output and are not committed.
 - The app's legal texts point to the `github.io` addresses, so GitHub Pages stays on
   after the switch to forward those addresses to https://fellowsurvivor.com/reel-nest/
 
